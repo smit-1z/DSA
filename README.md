@@ -44,4 +44,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1039-find-the-town-judge](https://github.com/smit-1z/DSA/tree/master/1039-find-the-town-judge) |
+## Tree
+|  |
+| ------- |
+| [1021-distribute-coins-in-binary-tree](https://github.com/smit-1z/DSA/tree/master/1021-distribute-coins-in-binary-tree) |
+## Depth-First Search
+|  |
+| ------- |
+| [1021-distribute-coins-in-binary-tree](https://github.com/smit-1z/DSA/tree/master/1021-distribute-coins-in-binary-tree) |
+## Binary Tree
+|  |
+| ------- |
+| [1021-distribute-coins-in-binary-tree](https://github.com/smit-1z/DSA/tree/master/1021-distribute-coins-in-binary-tree) |
 <!---LeetCode Topics End-->
