@@ -3,15 +3,15 @@ class Solution {
         int res = 0;
         int sum = 0;
         int L = 0;
-
-        for (int R = 0; R < arr.length; R++) {
-
+        for (int R = 0; R < k - 1; R++) {
             sum += arr[R];
+        }
 
-            if (R >= k-1) {
-                if(sum/k >= threshold) res++; 
-                sum -= arr[L++];
-            }
+        for (int R = k - 1; R < arr.length; R++) {
+            sum += arr[R];
+            if (sum >= threshold * k)
+                res++;
+            sum -= arr[L++];
         }
         return res;
     }
