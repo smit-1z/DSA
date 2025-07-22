@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/smit-1z/DSA/tree/master/0146-lru-cache) |
 | [1039-find-the-town-judge](https://github.com/smit-1z/DSA/tree/master/1039-find-the-town-judge) |
 ## Graph
 |  |
@@ -60,4 +61,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1021-distribute-coins-in-binary-tree](https://github.com/smit-1z/DSA/tree/master/1021-distribute-coins-in-binary-tree) |
+## Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/smit-1z/DSA/tree/master/0146-lru-cache) |
+## Design
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/smit-1z/DSA/tree/master/0146-lru-cache) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/smit-1z/DSA/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
