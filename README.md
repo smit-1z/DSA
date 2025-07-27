@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sliding Window
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/smit-1z/DSA/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0209-minimum-size-subarray-sum](https://github.com/smit-1z/DSA/tree/master/0209-minimum-size-subarray-sum) |
 | [0658-find-k-closest-elements](https://github.com/smit-1z/DSA/tree/master/0658-find-k-closest-elements) |
 | [1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold](https://github.com/smit-1z/DSA/tree/master/1445-number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
@@ -55,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/smit-1z/DSA/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0146-lru-cache](https://github.com/smit-1z/DSA/tree/master/0146-lru-cache) |
 | [0166-fraction-to-recurring-decimal](https://github.com/smit-1z/DSA/tree/master/0166-fraction-to-recurring-decimal) |
 | [1039-find-the-town-judge](https://github.com/smit-1z/DSA/tree/master/1039-find-the-town-judge) |
@@ -120,5 +122,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0003-longest-substring-without-repeating-characters](https://github.com/smit-1z/DSA/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0166-fraction-to-recurring-decimal](https://github.com/smit-1z/DSA/tree/master/0166-fraction-to-recurring-decimal) |
 <!---LeetCode Topics End-->
