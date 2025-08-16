@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0015-3sum](https://github.com/smit-1z/DSA/tree/master/0015-3sum) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/smit-1z/DSA/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
+| [0045-jump-game-ii](https://github.com/smit-1z/DSA/tree/master/0045-jump-game-ii) |
 | [0064-minimum-path-sum](https://github.com/smit-1z/DSA/tree/master/0064-minimum-path-sum) |
 | [0079-word-search](https://github.com/smit-1z/DSA/tree/master/0079-word-search) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/smit-1z/DSA/tree/master/0153-find-minimum-in-rotated-sorted-array) |
@@ -115,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0045-jump-game-ii](https://github.com/smit-1z/DSA/tree/master/0045-jump-game-ii) |
 | [0062-unique-paths](https://github.com/smit-1z/DSA/tree/master/0062-unique-paths) |
 | [0064-minimum-path-sum](https://github.com/smit-1z/DSA/tree/master/0064-minimum-path-sum) |
 ## Matrix
@@ -125,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0045-jump-game-ii](https://github.com/smit-1z/DSA/tree/master/0045-jump-game-ii) |
 | [0621-task-scheduler](https://github.com/smit-1z/DSA/tree/master/0621-task-scheduler) |
 | [2117-find-original-array-from-doubled-array](https://github.com/smit-1z/DSA/tree/master/2117-find-original-array-from-doubled-array) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/smit-1z/DSA/tree/master/2456-construct-smallest-number-from-di-string) |
