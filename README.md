@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0015-3sum](https://github.com/smit-1z/DSA/tree/master/0015-3sum) |
+| [0151-reverse-words-in-a-string](https://github.com/smit-1z/DSA/tree/master/0151-reverse-words-in-a-string) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/smit-1z/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0295-find-median-from-data-stream](https://github.com/smit-1z/DSA/tree/master/0295-find-median-from-data-stream) |
 | [0658-find-k-closest-elements](https://github.com/smit-1z/DSA/tree/master/0658-find-k-closest-elements) |
@@ -159,6 +160,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0017-letter-combinations-of-a-phone-number](https://github.com/smit-1z/DSA/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0020-valid-parentheses](https://github.com/smit-1z/DSA/tree/master/0020-valid-parentheses) |
 | [0079-word-search](https://github.com/smit-1z/DSA/tree/master/0079-word-search) |
+| [0151-reverse-words-in-a-string](https://github.com/smit-1z/DSA/tree/master/0151-reverse-words-in-a-string) |
 | [0166-fraction-to-recurring-decimal](https://github.com/smit-1z/DSA/tree/master/0166-fraction-to-recurring-decimal) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/smit-1z/DSA/tree/master/2456-construct-smallest-number-from-di-string) |
 ## Stack
