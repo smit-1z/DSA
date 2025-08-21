@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0054-spiral-matrix](https://github.com/smit-1z/DSA/tree/master/0054-spiral-matrix) |
 | [0064-minimum-path-sum](https://github.com/smit-1z/DSA/tree/master/0064-minimum-path-sum) |
 | [0079-word-search](https://github.com/smit-1z/DSA/tree/master/0079-word-search) |
+| [0090-subsets-ii](https://github.com/smit-1z/DSA/tree/master/0090-subsets-ii) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/smit-1z/DSA/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/smit-1z/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0169-majority-element](https://github.com/smit-1z/DSA/tree/master/0169-majority-element) |
@@ -221,6 +222,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0022-generate-parentheses](https://github.com/smit-1z/DSA/tree/master/0022-generate-parentheses) |
 | [0046-permutations](https://github.com/smit-1z/DSA/tree/master/0046-permutations) |
 | [0079-word-search](https://github.com/smit-1z/DSA/tree/master/0079-word-search) |
+| [0090-subsets-ii](https://github.com/smit-1z/DSA/tree/master/0090-subsets-ii) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/smit-1z/DSA/tree/master/2456-construct-smallest-number-from-di-string) |
 ## Divide and Conquer
 |  |
@@ -254,4 +256,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/smit-1z/DSA/tree/master/0014-longest-common-prefix) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0090-subsets-ii](https://github.com/smit-1z/DSA/tree/master/0090-subsets-ii) |
 <!---LeetCode Topics End-->
