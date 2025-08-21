@@ -121,6 +121,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/smit-1z/DSA/tree/master/0019-remove-nth-node-from-end-of-list) |
+| [0024-swap-nodes-in-pairs](https://github.com/smit-1z/DSA/tree/master/0024-swap-nodes-in-pairs) |
 | [0146-lru-cache](https://github.com/smit-1z/DSA/tree/master/0146-lru-cache) |
 | [0237-delete-node-in-a-linked-list](https://github.com/smit-1z/DSA/tree/master/0237-delete-node-in-a-linked-list) |
 | [0859-design-circular-deque](https://github.com/smit-1z/DSA/tree/master/0859-design-circular-deque) |
@@ -165,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Recursion
 |  |
 | ------- |
+| [0024-swap-nodes-in-pairs](https://github.com/smit-1z/DSA/tree/master/0024-swap-nodes-in-pairs) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/smit-1z/DSA/tree/master/1951-find-the-winner-of-the-circular-game) |
 ## Queue
 |  |
