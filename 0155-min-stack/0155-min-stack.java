@@ -1,7 +1,7 @@
 class MinStack {
-    LinkedList<Integer> stack;
-    LinkedList<Integer> minStack;
-
+    List<Integer> stack ;
+    List<Integer> minStack ;
+    
     public MinStack() {
         stack = new LinkedList<>();
         minStack = new LinkedList<>();
@@ -9,13 +9,13 @@ class MinStack {
     
     public void push(int val) {
         stack.add(val);
-        if (minStack.isEmpty() || minStack.getLast() >= val) {
+        if(minStack.isEmpty() || minStack.getLast() >= val){
             minStack.add(val);
         }
     }
     
     public void pop() {
-        if (stack.getLast().equals(minStack.getLast())) {
+        if(stack.getLast().equals(minStack.getLast())){
             minStack.removeLast();
         }
         stack.removeLast();
@@ -26,6 +26,6 @@ class MinStack {
     }
     
     public int getMin() {
-        return minStack.getLast();
+      return minStack.getLast();
     }
 }
