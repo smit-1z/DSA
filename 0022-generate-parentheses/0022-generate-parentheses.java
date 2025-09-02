@@ -2,26 +2,25 @@ class Solution {
     List<String> res = new ArrayList<>();
 
     public List<String> generateParenthesis(int n) {
-        generate(n, new StringBuilder(), 0, 0);
+        generate(n,0,0,new StringBuilder());
         return res;
     }
 
-    public void generate(int n, StringBuilder curr, int open, int close) {
-        if (curr.length() == n * 2) {
-            res.add(new String(curr));
-            return;
+    public void generate(int n,int open,int close ,StringBuilder pattern){
+        if(open+close == n*2){
+            res.add(new String(pattern));
         }
 
-        if (open < n) {
-            curr.append("(");
-            generate(n, curr, open + 1, close);
-            curr.deleteCharAt(curr.length() - 1);
-        }
+            if(open <n){
+                pattern.append("(");
+                generate(n,open+1,close,pattern);
+                pattern.deleteCharAt(pattern.length() -1);
+            }
 
-        if (close < open) {
-            curr.append(")");
-            generate(n, curr, open, close + 1);
-            curr.deleteCharAt(curr.length() - 1);
-        }
+            if(close < open){
+                pattern.append(")");
+                generate(n,open,close+1,pattern);
+                pattern.deleteCharAt(pattern.length() -1);
+            }
     }
 }
