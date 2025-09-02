@@ -18,6 +18,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0090-subsets-ii](https://github.com/smit-1z/DSA/tree/master/0090-subsets-ii) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/smit-1z/DSA/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0134-gas-station](https://github.com/smit-1z/DSA/tree/master/0134-gas-station) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/smit-1z/DSA/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/smit-1z/DSA/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/smit-1z/DSA/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/smit-1z/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
@@ -178,6 +179,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0062-unique-paths](https://github.com/smit-1z/DSA/tree/master/0062-unique-paths) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/smit-1z/DSA/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0166-fraction-to-recurring-decimal](https://github.com/smit-1z/DSA/tree/master/0166-fraction-to-recurring-decimal) |
 | [0204-count-primes](https://github.com/smit-1z/DSA/tree/master/0204-count-primes) |
 | [0441-arranging-coins](https://github.com/smit-1z/DSA/tree/master/0441-arranging-coins) |
@@ -216,6 +218,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/smit-1z/DSA/tree/master/0020-valid-parentheses) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/smit-1z/DSA/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/smit-1z/DSA/tree/master/0155-min-stack) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/smit-1z/DSA/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/smit-1z/DSA/tree/master/2456-construct-smallest-number-from-di-string) |
