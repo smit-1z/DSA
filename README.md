@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0162-find-peak-element](https://github.com/smit-1z/DSA/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/smit-1z/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0169-majority-element](https://github.com/smit-1z/DSA/tree/master/0169-majority-element) |
+| [0179-largest-number](https://github.com/smit-1z/DSA/tree/master/0179-largest-number) |
 | [0204-count-primes](https://github.com/smit-1z/DSA/tree/master/0204-count-primes) |
 | [0209-minimum-size-subarray-sum](https://github.com/smit-1z/DSA/tree/master/0209-minimum-size-subarray-sum) |
 | [0249-group-shifted-strings](https://github.com/smit-1z/DSA/tree/master/0249-group-shifted-strings) |
@@ -83,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/smit-1z/DSA/tree/master/0015-3sum) |
 | [0056-merge-intervals](https://github.com/smit-1z/DSA/tree/master/0056-merge-intervals) |
 | [0169-majority-element](https://github.com/smit-1z/DSA/tree/master/0169-majority-element) |
+| [0179-largest-number](https://github.com/smit-1z/DSA/tree/master/0179-largest-number) |
 | [0295-find-median-from-data-stream](https://github.com/smit-1z/DSA/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/smit-1z/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0621-task-scheduler](https://github.com/smit-1z/DSA/tree/master/0621-task-scheduler) |
@@ -172,6 +174,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0045-jump-game-ii](https://github.com/smit-1z/DSA/tree/master/0045-jump-game-ii) |
 | [0134-gas-station](https://github.com/smit-1z/DSA/tree/master/0134-gas-station) |
+| [0179-largest-number](https://github.com/smit-1z/DSA/tree/master/0179-largest-number) |
 | [0621-task-scheduler](https://github.com/smit-1z/DSA/tree/master/0621-task-scheduler) |
 | [2117-find-original-array-from-doubled-array](https://github.com/smit-1z/DSA/tree/master/2117-find-original-array-from-doubled-array) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/smit-1z/DSA/tree/master/2456-construct-smallest-number-from-di-string) |
@@ -212,6 +215,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/smit-1z/DSA/tree/master/0079-word-search) |
 | [0151-reverse-words-in-a-string](https://github.com/smit-1z/DSA/tree/master/0151-reverse-words-in-a-string) |
 | [0166-fraction-to-recurring-decimal](https://github.com/smit-1z/DSA/tree/master/0166-fraction-to-recurring-decimal) |
+| [0179-largest-number](https://github.com/smit-1z/DSA/tree/master/0179-largest-number) |
 | [0249-group-shifted-strings](https://github.com/smit-1z/DSA/tree/master/0249-group-shifted-strings) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/smit-1z/DSA/tree/master/2456-construct-smallest-number-from-di-string) |
 ## Stack
