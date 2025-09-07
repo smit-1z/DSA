@@ -1,8 +1,8 @@
 class Solution {
     public String convert(String s, int numRows) {
-        if (numRows == 1 || s.length() <= numRows) return s;
         StringBuilder[] arr = new StringBuilder[numRows];
 
+        if (numRows == 1 ) return s;
 
         for (int i = 0; i < numRows; i++) {
             arr[i] = new StringBuilder();
