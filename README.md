@@ -224,6 +224,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/smit-1z/DSA/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/smit-1z/DSA/tree/master/0022-generate-parentheses) |
 | [0049-group-anagrams](https://github.com/smit-1z/DSA/tree/master/0049-group-anagrams) |
+| [0071-simplify-path](https://github.com/smit-1z/DSA/tree/master/0071-simplify-path) |
 | [0079-word-search](https://github.com/smit-1z/DSA/tree/master/0079-word-search) |
 | [0151-reverse-words-in-a-string](https://github.com/smit-1z/DSA/tree/master/0151-reverse-words-in-a-string) |
 | [0166-fraction-to-recurring-decimal](https://github.com/smit-1z/DSA/tree/master/0166-fraction-to-recurring-decimal) |
@@ -235,6 +236,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/smit-1z/DSA/tree/master/0020-valid-parentheses) |
+| [0071-simplify-path](https://github.com/smit-1z/DSA/tree/master/0071-simplify-path) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/smit-1z/DSA/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/smit-1z/DSA/tree/master/0155-min-stack) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/smit-1z/DSA/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
