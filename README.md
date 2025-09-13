@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0054-spiral-matrix](https://github.com/smit-1z/DSA/tree/master/0054-spiral-matrix) |
 | [0056-merge-intervals](https://github.com/smit-1z/DSA/tree/master/0056-merge-intervals) |
 | [0064-minimum-path-sum](https://github.com/smit-1z/DSA/tree/master/0064-minimum-path-sum) |
+| [0078-subsets](https://github.com/smit-1z/DSA/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/smit-1z/DSA/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/smit-1z/DSA/tree/master/0090-subsets-ii) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/smit-1z/DSA/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
@@ -267,6 +268,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0017-letter-combinations-of-a-phone-number](https://github.com/smit-1z/DSA/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0022-generate-parentheses](https://github.com/smit-1z/DSA/tree/master/0022-generate-parentheses) |
 | [0046-permutations](https://github.com/smit-1z/DSA/tree/master/0046-permutations) |
+| [0078-subsets](https://github.com/smit-1z/DSA/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/smit-1z/DSA/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/smit-1z/DSA/tree/master/0090-subsets-ii) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/smit-1z/DSA/tree/master/2456-construct-smallest-number-from-di-string) |
@@ -308,6 +310,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0078-subsets](https://github.com/smit-1z/DSA/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/smit-1z/DSA/tree/master/0090-subsets-ii) |
 ## Binary Search Tree
 |  |
