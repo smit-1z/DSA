@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0204-count-primes](https://github.com/smit-1z/DSA/tree/master/0204-count-primes) |
 | [0209-minimum-size-subarray-sum](https://github.com/smit-1z/DSA/tree/master/0209-minimum-size-subarray-sum) |
 | [0249-group-shifted-strings](https://github.com/smit-1z/DSA/tree/master/0249-group-shifted-strings) |
+| [0268-missing-number](https://github.com/smit-1z/DSA/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/smit-1z/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0560-subarray-sum-equals-k](https://github.com/smit-1z/DSA/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/smit-1z/DSA/tree/master/0621-task-scheduler) |
@@ -55,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0162-find-peak-element](https://github.com/smit-1z/DSA/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/smit-1z/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/smit-1z/DSA/tree/master/0209-minimum-size-subarray-sum) |
+| [0268-missing-number](https://github.com/smit-1z/DSA/tree/master/0268-missing-number) |
 | [0441-arranging-coins](https://github.com/smit-1z/DSA/tree/master/0441-arranging-coins) |
 | [0658-find-k-closest-elements](https://github.com/smit-1z/DSA/tree/master/0658-find-k-closest-elements) |
 | [1046-max-consecutive-ones-iii](https://github.com/smit-1z/DSA/tree/master/1046-max-consecutive-ones-iii) |
@@ -97,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/smit-1z/DSA/tree/master/0169-majority-element) |
 | [0179-largest-number](https://github.com/smit-1z/DSA/tree/master/0179-largest-number) |
 | [0242-valid-anagram](https://github.com/smit-1z/DSA/tree/master/0242-valid-anagram) |
+| [0268-missing-number](https://github.com/smit-1z/DSA/tree/master/0268-missing-number) |
 | [0295-find-median-from-data-stream](https://github.com/smit-1z/DSA/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/smit-1z/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0621-task-scheduler](https://github.com/smit-1z/DSA/tree/master/0621-task-scheduler) |
@@ -125,6 +128,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/smit-1z/DSA/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/smit-1z/DSA/tree/master/0242-valid-anagram) |
 | [0249-group-shifted-strings](https://github.com/smit-1z/DSA/tree/master/0249-group-shifted-strings) |
+| [0268-missing-number](https://github.com/smit-1z/DSA/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/smit-1z/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0383-ransom-note](https://github.com/smit-1z/DSA/tree/master/0383-ransom-note) |
 | [0560-subarray-sum-equals-k](https://github.com/smit-1z/DSA/tree/master/0560-subarray-sum-equals-k) |
@@ -214,6 +218,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0150-evaluate-reverse-polish-notation](https://github.com/smit-1z/DSA/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0166-fraction-to-recurring-decimal](https://github.com/smit-1z/DSA/tree/master/0166-fraction-to-recurring-decimal) |
 | [0204-count-primes](https://github.com/smit-1z/DSA/tree/master/0204-count-primes) |
+| [0268-missing-number](https://github.com/smit-1z/DSA/tree/master/0268-missing-number) |
 | [0441-arranging-coins](https://github.com/smit-1z/DSA/tree/master/0441-arranging-coins) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/smit-1z/DSA/tree/master/1951-find-the-winner-of-the-circular-game) |
 ## Recursion
@@ -327,6 +332,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0078-subsets](https://github.com/smit-1z/DSA/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/smit-1z/DSA/tree/master/0090-subsets-ii) |
+| [0268-missing-number](https://github.com/smit-1z/DSA/tree/master/0268-missing-number) |
 ## Binary Search Tree
 |  |
 | ------- |
