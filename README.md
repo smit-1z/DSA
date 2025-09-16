@@ -217,6 +217,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/smit-1z/DSA/tree/master/0002-add-two-numbers) |
+| [0009-palindrome-number](https://github.com/smit-1z/DSA/tree/master/0009-palindrome-number) |
 | [0062-unique-paths](https://github.com/smit-1z/DSA/tree/master/0062-unique-paths) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/smit-1z/DSA/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0166-fraction-to-recurring-decimal](https://github.com/smit-1z/DSA/tree/master/0166-fraction-to-recurring-decimal) |
