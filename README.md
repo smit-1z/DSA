@@ -39,6 +39,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0643-maximum-average-subarray-i](https://github.com/smit-1z/DSA/tree/master/0643-maximum-average-subarray-i) |
 | [0658-find-k-closest-elements](https://github.com/smit-1z/DSA/tree/master/0658-find-k-closest-elements) |
 | [0859-design-circular-deque](https://github.com/smit-1z/DSA/tree/master/0859-design-circular-deque) |
+| [0883-car-fleet](https://github.com/smit-1z/DSA/tree/master/0883-car-fleet) |
 | [1039-find-the-town-judge](https://github.com/smit-1z/DSA/tree/master/1039-find-the-town-judge) |
 | [1046-max-consecutive-ones-iii](https://github.com/smit-1z/DSA/tree/master/1046-max-consecutive-ones-iii) |
 | [1074-high-five](https://github.com/smit-1z/DSA/tree/master/1074-high-five) |
@@ -109,6 +110,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/smit-1z/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0621-task-scheduler](https://github.com/smit-1z/DSA/tree/master/0621-task-scheduler) |
 | [0658-find-k-closest-elements](https://github.com/smit-1z/DSA/tree/master/0658-find-k-closest-elements) |
+| [0883-car-fleet](https://github.com/smit-1z/DSA/tree/master/0883-car-fleet) |
 | [1074-high-five](https://github.com/smit-1z/DSA/tree/master/1074-high-five) |
 | [1306-minimum-absolute-difference](https://github.com/smit-1z/DSA/tree/master/1306-minimum-absolute-difference) |
 | [2117-find-original-array-from-doubled-array](https://github.com/smit-1z/DSA/tree/master/2117-find-original-array-from-doubled-array) |
@@ -282,11 +284,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0071-simplify-path](https://github.com/smit-1z/DSA/tree/master/0071-simplify-path) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/smit-1z/DSA/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/smit-1z/DSA/tree/master/0155-min-stack) |
+| [0883-car-fleet](https://github.com/smit-1z/DSA/tree/master/0883-car-fleet) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/smit-1z/DSA/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [2456-construct-smallest-number-from-di-string](https://github.com/smit-1z/DSA/tree/master/2456-construct-smallest-number-from-di-string) |
 ## Monotonic Stack
 |  |
 | ------- |
+| [0883-car-fleet](https://github.com/smit-1z/DSA/tree/master/0883-car-fleet) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/smit-1z/DSA/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 ## Combinatorics
 |  |
