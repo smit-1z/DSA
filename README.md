@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/smit-1z/DSA/tree/master/0268-missing-number) |
 | [0271-encode-and-decode-strings](https://github.com/smit-1z/DSA/tree/master/0271-encode-and-decode-strings) |
 | [0347-top-k-frequent-elements](https://github.com/smit-1z/DSA/tree/master/0347-top-k-frequent-elements) |
+| [0419-battleships-in-a-board](https://github.com/smit-1z/DSA/tree/master/0419-battleships-in-a-board) |
 | [0560-subarray-sum-equals-k](https://github.com/smit-1z/DSA/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/smit-1z/DSA/tree/master/0621-task-scheduler) |
 | [0643-maximum-average-subarray-i](https://github.com/smit-1z/DSA/tree/master/0643-maximum-average-subarray-i) |
@@ -168,6 +169,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/smit-1z/DSA/tree/master/0079-word-search) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/smit-1z/DSA/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/smit-1z/DSA/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0419-battleships-in-a-board](https://github.com/smit-1z/DSA/tree/master/0419-battleships-in-a-board) |
 | [1021-distribute-coins-in-binary-tree](https://github.com/smit-1z/DSA/tree/master/1021-distribute-coins-in-binary-tree) |
 | [1396-count-servers-that-communicate](https://github.com/smit-1z/DSA/tree/master/1396-count-servers-that-communicate) |
 ## Binary Tree
@@ -222,6 +224,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0064-minimum-path-sum](https://github.com/smit-1z/DSA/tree/master/0064-minimum-path-sum) |
 | [0074-search-a-2d-matrix](https://github.com/smit-1z/DSA/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/smit-1z/DSA/tree/master/0079-word-search) |
+| [0419-battleships-in-a-board](https://github.com/smit-1z/DSA/tree/master/0419-battleships-in-a-board) |
 | [1396-count-servers-that-communicate](https://github.com/smit-1z/DSA/tree/master/1396-count-servers-that-communicate) |
 ## Greedy
 |  |
