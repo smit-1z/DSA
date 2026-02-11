@@ -137,6 +137,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0017-letter-combinations-of-a-phone-number](https://github.com/smit-1z/DSA/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0036-valid-sudoku](https://github.com/smit-1z/DSA/tree/master/0036-valid-sudoku) |
 | [0049-group-anagrams](https://github.com/smit-1z/DSA/tree/master/0049-group-anagrams) |
+| [0138-copy-list-with-random-pointer](https://github.com/smit-1z/DSA/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/smit-1z/DSA/tree/master/0141-linked-list-cycle) |
 | [0146-lru-cache](https://github.com/smit-1z/DSA/tree/master/0146-lru-cache) |
 | [0166-fraction-to-recurring-decimal](https://github.com/smit-1z/DSA/tree/master/0166-fraction-to-recurring-decimal) |
@@ -190,6 +191,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0023-merge-k-sorted-lists](https://github.com/smit-1z/DSA/tree/master/0023-merge-k-sorted-lists) |
 | [0024-swap-nodes-in-pairs](https://github.com/smit-1z/DSA/tree/master/0024-swap-nodes-in-pairs) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/smit-1z/DSA/tree/master/0116-populating-next-right-pointers-in-each-node) |
+| [0138-copy-list-with-random-pointer](https://github.com/smit-1z/DSA/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/smit-1z/DSA/tree/master/0141-linked-list-cycle) |
 | [0143-reorder-list](https://github.com/smit-1z/DSA/tree/master/0143-reorder-list) |
 | [0146-lru-cache](https://github.com/smit-1z/DSA/tree/master/0146-lru-cache) |
