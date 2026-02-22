@@ -1,7 +1,6 @@
 class Solution {
     public int search(int[] nums, int target) {
         //find the pivot index 
-        int pivot = 0;
         int l = 0;
         int r =  nums.length -1;
 
@@ -14,17 +13,17 @@ class Solution {
                 r = mid;
             }
         }
-        pivot = r;
+        int pivot = r;
 
         // determine which half to search
 
-        l = 0;
         r =  nums.length -1;
 
-        if(target >= nums[l] && target <= nums[pivot - 1]){
-            r = pivot-1;
+        if(target >= nums[pivot] && target <= nums[r]){
+           l = pivot;
         }else{
-            l = pivot;
+            l = 0;
+            r = pivot - 1;
         }
 
         // search that half
