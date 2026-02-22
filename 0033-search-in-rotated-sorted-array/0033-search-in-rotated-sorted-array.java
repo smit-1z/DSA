@@ -1,36 +1,41 @@
 class Solution {
     public int search(int[] nums, int target) {
-        int l = 0; 
-        int r = nums.length-1;
+        //find the pivot index 
+        int pivot = 0;
+        int l = 0;
+        int r =  nums.length -1;
 
         while(l < r){
             int mid = l + (r - l)/2;
 
             if(nums[mid] > nums[r]){
-                l = mid + 1;
+                l = mid+1;
             }else{
                 r = mid;
             }
         }
+        pivot = r;
 
-        int pivot = l;
-        r = nums.length-1;
+        // determine which half to search
 
-        if(target >= nums[pivot] && target <= nums[r]){
-            l = pivot; 
+        l = 0;
+        r =  nums.length -1;
+
+        if(target >= nums[l] && target <= nums[pivot - 1]){
+            r = pivot-1;
         }else{
-            l = 0;
-            r = pivot - 1;
+            l = pivot;
         }
 
+        // search that half
         while(l <= r){
             int mid = l + (r - l)/2;
-            if(nums[mid] == target) return mid;
-
-            else if(nums[mid] < target){
-                l = mid + 1;
+            if(nums[mid] == target){
+                return mid;
+            }else if(nums[mid] > target){
+                r = mid - 1;
             }else{
-                r = mid-1;
+                l = mid+1;
             }
         }
 
