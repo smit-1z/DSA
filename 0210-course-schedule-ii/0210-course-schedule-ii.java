@@ -1,43 +1,46 @@
 class Solution {
-    Map<Integer,List<Integer>> map = new HashMap<>();
     Map<Integer,Boolean> visiting = new HashMap<>();
     List<Integer> result = new ArrayList<>();
+    Map<Integer,List<Integer>> preReqs = new HashMap<>();
+
     public int[] findOrder(int numCourses, int[][] prerequisites) {
-         if(numCourses == 1) return new int[]{0};
-        for(int i =0;i<numCourses;i++){
-            map.put(i,new ArrayList<>());
+        for(int i=0;i<numCourses;i++){
+            preReqs.put(i,new ArrayList<>());
         }
 
         for(int[] preReq : prerequisites){
-            map.get(preReq[0]).add(preReq[1]);
+            preReqs.get(preReq[0]).add(preReq[1]);
         }
 
         for(int i =0;i<numCourses;i++){
-            boolean isPossible = dfs(i);
-            if(!isPossible) return new int[0];
+            if(!findCycle(i)){
+                return new int[]{};
+            }
         }
 
-        
-    int[] returnArr = new int[result.size()];
+        int[] resArray = new int[result.size()];
 
-       for(int i=0;i<result.size();i++){
-        returnArr[i] = result.get(i);
-       }
+        for(int i=0;i<resArray.length;i++){
+            resArray[i] = result.get(i);
+        }
 
-       return returnArr;
+        return resArray;
     }
 
-    public boolean dfs(int course){
-        if(visiting.containsKey(course)){
-            return visiting.get(course);
+    public boolean findCycle(int courseId){
+        if(visiting.containsKey(courseId)){
+            return visiting.get(courseId);
         }
 
-        visiting.put(course,false);
-        for(int preReq:map.get(course)){
-            if(!dfs(preReq)) return false;
+        visiting.put(courseId,false);
+        for(int preReq:preReqs.get(courseId)){
+            if(!findCycle(preReq)){
+                return false;
+            }
         }
-        result.add(course);
-        visiting.put(course,true);
+
+        visiting.put(courseId,true);
+        result.add(courseId);
         return true;
     }
 }
