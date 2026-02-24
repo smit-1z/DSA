@@ -182,6 +182,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/smit-1z/DSA/tree/master/0079-word-search) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/smit-1z/DSA/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0200-number-of-islands](https://github.com/smit-1z/DSA/tree/master/0200-number-of-islands) |
+| [0207-course-schedule](https://github.com/smit-1z/DSA/tree/master/0207-course-schedule) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/smit-1z/DSA/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0419-battleships-in-a-board](https://github.com/smit-1z/DSA/tree/master/0419-battleships-in-a-board) |
 | [0543-diameter-of-binary-tree](https://github.com/smit-1z/DSA/tree/master/0543-diameter-of-binary-tree) |
@@ -420,6 +421,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/smit-1z/DSA/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/smit-1z/DSA/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0200-number-of-islands](https://github.com/smit-1z/DSA/tree/master/0200-number-of-islands) |
+| [0207-course-schedule](https://github.com/smit-1z/DSA/tree/master/0207-course-schedule) |
 | [0695-max-area-of-island](https://github.com/smit-1z/DSA/tree/master/0695-max-area-of-island) |
 | [1396-count-servers-that-communicate](https://github.com/smit-1z/DSA/tree/master/1396-count-servers-that-communicate) |
 ## Union Find
@@ -431,4 +433,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0200-number-of-islands](https://github.com/smit-1z/DSA/tree/master/0200-number-of-islands) |
 | [0695-max-area-of-island](https://github.com/smit-1z/DSA/tree/master/0695-max-area-of-island) |
+## Graph Theory
+|  |
+| ------- |
+| [0207-course-schedule](https://github.com/smit-1z/DSA/tree/master/0207-course-schedule) |
+## Topological Sort
+|  |
+| ------- |
+| [0207-course-schedule](https://github.com/smit-1z/DSA/tree/master/0207-course-schedule) |
 <!---LeetCode Topics End-->
