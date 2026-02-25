@@ -24,9 +24,11 @@ class Solution {
                 currentLevel.add(node.val);
             }
 
+
             res.add(currentLevel);
         }
+            Collections.reverse(res);
 
-        return res.reversed();
+        return res;
     }
 }
