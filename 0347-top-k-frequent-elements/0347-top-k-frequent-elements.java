@@ -19,15 +19,10 @@ class Solution {
 
         int[] res = new int[k];
         int index = 0;
-        for (int i = max; i >= 0; i--) {
+        for (int i = max; i >= 0 &&index < k; i--) {
             for (int num : buckets[i]) {
-                if (index < k) {
                     res[index++] = num;
-                } else {
-                    return res;
+                    if(index == k) return res;
                 }
-            }
-        }
-        return res;
-    }
-}
+        }return res;
+}}
