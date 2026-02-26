@@ -38,22 +38,24 @@ class LRUCache {
         return node.val;
     }
 
-    public void put(int key, int value) {
-        if (map.containsKey(key)) {
-            remove(map.get(key));
-            map.get(key).val = value;
-            add(map.get(key));
-        } else {
-            Node node = new Node(key, value);
-            map.put(key, node);
-            add(node);
-        }
-
-        if (map.size() > capacity) {
-            map.remove(tail.prev.key);
-            remove(tail.prev);
-        }
+   public void put(int key, int value) {
+    if (map.containsKey(key)) {
+        Node node = map.get(key);
+        node.val = value;
+        remove(node);
+        add(node);
+    } else {
+        Node node = new Node(key, value);
+        map.put(key, node);
+        add(node);
     }
+
+    if (map.size() > capacity) {
+        Node lru = tail.prev;
+        remove(lru);
+        map.remove(lru.key);
+    }
+}
 
     public void add(Node node) {
         Node next = head.next;
