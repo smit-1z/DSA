@@ -128,6 +128,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0621-task-scheduler](https://github.com/smit-1z/DSA/tree/master/0621-task-scheduler) |
 | [0658-find-k-closest-elements](https://github.com/smit-1z/DSA/tree/master/0658-find-k-closest-elements) |
 | [0883-car-fleet](https://github.com/smit-1z/DSA/tree/master/0883-car-fleet) |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/smit-1z/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1074-high-five](https://github.com/smit-1z/DSA/tree/master/1074-high-five) |
 | [1306-minimum-absolute-difference](https://github.com/smit-1z/DSA/tree/master/1306-minimum-absolute-difference) |
 | [2117-find-original-array-from-doubled-array](https://github.com/smit-1z/DSA/tree/master/2117-find-original-array-from-doubled-array) |
@@ -163,6 +164,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/smit-1z/DSA/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/smit-1z/DSA/tree/master/0567-permutation-in-string) |
 | [0621-task-scheduler](https://github.com/smit-1z/DSA/tree/master/0621-task-scheduler) |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/smit-1z/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1039-find-the-town-judge](https://github.com/smit-1z/DSA/tree/master/1039-find-the-town-judge) |
 | [1074-high-five](https://github.com/smit-1z/DSA/tree/master/1074-high-five) |
 | [1488-avoid-flood-in-the-city](https://github.com/smit-1z/DSA/tree/master/1488-avoid-flood-in-the-city) |
@@ -181,6 +183,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/smit-1z/DSA/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/smit-1z/DSA/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/smit-1z/DSA/tree/master/0543-diameter-of-binary-tree) |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/smit-1z/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1021-distribute-coins-in-binary-tree](https://github.com/smit-1z/DSA/tree/master/1021-distribute-coins-in-binary-tree) |
 ## Depth-First Search
 |  |
@@ -194,6 +197,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0419-battleships-in-a-board](https://github.com/smit-1z/DSA/tree/master/0419-battleships-in-a-board) |
 | [0543-diameter-of-binary-tree](https://github.com/smit-1z/DSA/tree/master/0543-diameter-of-binary-tree) |
 | [0695-max-area-of-island](https://github.com/smit-1z/DSA/tree/master/0695-max-area-of-island) |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/smit-1z/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1021-distribute-coins-in-binary-tree](https://github.com/smit-1z/DSA/tree/master/1021-distribute-coins-in-binary-tree) |
 | [1396-count-servers-that-communicate](https://github.com/smit-1z/DSA/tree/master/1396-count-servers-that-communicate) |
 ## Binary Tree
@@ -206,6 +210,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/smit-1z/DSA/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/smit-1z/DSA/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/smit-1z/DSA/tree/master/0543-diameter-of-binary-tree) |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/smit-1z/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1021-distribute-coins-in-binary-tree](https://github.com/smit-1z/DSA/tree/master/1021-distribute-coins-in-binary-tree) |
 ## Linked List
 |  |
@@ -440,6 +445,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/smit-1z/DSA/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/smit-1z/DSA/tree/master/0210-course-schedule-ii) |
 | [0695-max-area-of-island](https://github.com/smit-1z/DSA/tree/master/0695-max-area-of-island) |
+| [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/smit-1z/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1396-count-servers-that-communicate](https://github.com/smit-1z/DSA/tree/master/1396-count-servers-that-communicate) |
 ## Union Find
 |  |
