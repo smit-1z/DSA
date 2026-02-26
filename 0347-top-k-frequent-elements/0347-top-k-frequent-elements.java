@@ -1,46 +1,33 @@
 class Solution {
     public int[] topKFrequent(int[] nums, int k) {
-        Map<Integer, Integer> freqMap = new HashMap<>();
-        int maxFreq = 0;
+        Map<Integer, Integer> map = new HashMap<>();
+        int max = 0;
 
-        for (int num : nums) {
-            freqMap.put(num, freqMap.getOrDefault(num, 0) + 1);
-            maxFreq = Math.max(maxFreq, freqMap.get(num));
+        for (int i = 0; i < nums.length; i++) {
+            map.put(nums[i], map.getOrDefault(nums[i], 0) + 1);
+            max = Math.max(max, map.get(nums[i]));
         }
+        List<Integer>[] buckets = new List[max + 1];
 
-        List<Integer>[] buckets = new List[maxFreq + 1];
-
-        for (int i = 0; i < buckets.length; i++) {
+        for (int i = 0; i <= max; i++) {
             buckets[i] = new ArrayList<>();
         }
 
-        for (Integer key : freqMap.keySet()) {
-            buckets[freqMap.get(key)].add(key);
+        for (int key : map.keySet()) {
+            buckets[map.get(key)].add(key);
         }
 
         int[] res = new int[k];
         int index = 0;
-
-        for (int i = buckets.length - 1; i >= 0; i--) {
+        for (int i = max; i >= 0; i--) {
             for (int num : buckets[i]) {
-                if (index == k)
+                if (index < k) {
+                    res[index++] = num;
+                } else {
                     return res;
-                res[index++] = num;
+                }
             }
         }
         return res;
     }
 }
-/*
-
-{
-    1 3
-    2 2 
-    3 1 
-}
-
-maxfreq = 3 + 1
-
-[ [1] [2] [1] ]
-
-*/
