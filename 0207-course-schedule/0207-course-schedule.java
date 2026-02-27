@@ -15,7 +15,7 @@ class Solution {
         }
 
         for (int i = 0; i < n; i++) {
-            if (!visiting.containsKey(i) &&dfs(i)) {
+            if (dfs(i)) {
                 return false;
             }
         }
