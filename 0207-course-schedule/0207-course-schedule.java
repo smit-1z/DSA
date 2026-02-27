@@ -1,53 +1,40 @@
 class Solution {
-    Map<Integer, List<Integer>> map;
-    Set<Integer> visiting;
-    Set<Integer> visited;
-
-    
+    HashMap<Integer,Boolean> visiting = new HashMap<>();
+    Map<Integer, List<Integer>> map = new HashMap<>();
 
     public boolean canFinish(int numCourses, int[][] prerequisites) {
-        this.map = new HashMap<>();
-        this.visiting = new HashSet<>();
-        this.visited = new HashSet<>();
-
-
-         for(int i=0;i<numCourses;i++){
-            map.put(i,new ArrayList<>());
+        int n = numCourses;
+        for (int i = 0; i < n; i++) {
+            map.put(i, new ArrayList<>());
         }
 
-        for (int[] preReqs : prerequisites) {
-            map.get(preReqs[0]).add(preReqs[1]);
+        for (int[] preReq : prerequisites) {
+            int c = preReq[0];
+            int p = preReq[1];
+            map.get(c).add(p);
         }
 
-        for (int i = 0; i < numCourses; i++) {
-            if (cycleFound(i)) {
+        for (int i = 0; i < n; i++) {
+            if (!visiting.containsKey(i) &&dfs(i)) {
                 return false;
             }
         }
+
         return true;
     }
 
-    public boolean cycleFound(int courseId) {
-        if (visiting.contains(courseId))
-            return true;
-        if (visited.contains(courseId))
-            return false;
-        visiting.add(courseId);
-        for (int preReq : map.get(courseId)) {
-            if (cycleFound(preReq)) {
-                return true;
-            }
+    public boolean dfs(int courseId) {
+        if (visiting.containsKey(courseId)) {
+           return visiting.get(courseId);
         }
-        visiting.remove(courseId);
-        visited.add(courseId);
+
+        visiting.put(courseId,true);
+        for (int pre : map.get(courseId)) {
+           if(dfs(pre)){
+            return true;
+           }
+        }
+        visiting.put(courseId,false);
         return false;
     }
 }
-/*
- [[1,0],[0,1]]
-
- {
-    1 [0]
-    0 [1]
- }
-*/
