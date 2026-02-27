@@ -5,7 +5,7 @@ class Solution {
         int size = nums1.length + nums2.length;
 
         if (size % 2 == 0) {
-            for (int i = 0; i < (size / 2) -1; i++) {
+            for (int i = 0; i < size / 2 -1; i++) {
                 getNext(nums1,nums2);
             }
             return (getNext(nums1,nums2) + getNext(nums1,nums2))/2.0;
