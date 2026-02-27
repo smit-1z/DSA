@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0643-maximum-average-subarray-i](https://github.com/smit-1z/DSA/tree/master/0643-maximum-average-subarray-i) |
 | [0658-find-k-closest-elements](https://github.com/smit-1z/DSA/tree/master/0658-find-k-closest-elements) |
 | [0695-max-area-of-island](https://github.com/smit-1z/DSA/tree/master/0695-max-area-of-island) |
+| [0735-asteroid-collision](https://github.com/smit-1z/DSA/tree/master/0735-asteroid-collision) |
 | [0859-design-circular-deque](https://github.com/smit-1z/DSA/tree/master/0859-design-circular-deque) |
 | [0883-car-fleet](https://github.com/smit-1z/DSA/tree/master/0883-car-fleet) |
 | [1039-find-the-town-judge](https://github.com/smit-1z/DSA/tree/master/1039-find-the-town-judge) |
@@ -312,6 +313,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/smit-1z/DSA/tree/master/0054-spiral-matrix) |
+| [0735-asteroid-collision](https://github.com/smit-1z/DSA/tree/master/0735-asteroid-collision) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/smit-1z/DSA/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2058-concatenation-of-array](https://github.com/smit-1z/DSA/tree/master/2058-concatenation-of-array) |
 ## String
@@ -349,6 +351,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0150-evaluate-reverse-polish-notation](https://github.com/smit-1z/DSA/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/smit-1z/DSA/tree/master/0155-min-stack) |
 | [0445-add-two-numbers-ii](https://github.com/smit-1z/DSA/tree/master/0445-add-two-numbers-ii) |
+| [0735-asteroid-collision](https://github.com/smit-1z/DSA/tree/master/0735-asteroid-collision) |
 | [0883-car-fleet](https://github.com/smit-1z/DSA/tree/master/0883-car-fleet) |
 | [1209-remove-all-adjacent-duplicates-in-string-ii](https://github.com/smit-1z/DSA/tree/master/1209-remove-all-adjacent-duplicates-in-string-ii) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/smit-1z/DSA/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
