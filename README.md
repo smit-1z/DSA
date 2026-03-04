@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/smit-1z/DSA/tree/master/0268-missing-number) |
 | [0271-encode-and-decode-strings](https://github.com/smit-1z/DSA/tree/master/0271-encode-and-decode-strings) |
 | [0347-top-k-frequent-elements](https://github.com/smit-1z/DSA/tree/master/0347-top-k-frequent-elements) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/smit-1z/DSA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0419-battleships-in-a-board](https://github.com/smit-1z/DSA/tree/master/0419-battleships-in-a-board) |
 | [0560-subarray-sum-equals-k](https://github.com/smit-1z/DSA/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/smit-1z/DSA/tree/master/0621-task-scheduler) |
@@ -74,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/smit-1z/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/smit-1z/DSA/tree/master/0209-minimum-size-subarray-sum) |
 | [0268-missing-number](https://github.com/smit-1z/DSA/tree/master/0268-missing-number) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/smit-1z/DSA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0441-arranging-coins](https://github.com/smit-1z/DSA/tree/master/0441-arranging-coins) |
 | [0658-find-k-closest-elements](https://github.com/smit-1z/DSA/tree/master/0658-find-k-closest-elements) |
 | [1046-max-consecutive-ones-iii](https://github.com/smit-1z/DSA/tree/master/1046-max-consecutive-ones-iii) |
@@ -126,6 +128,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/smit-1z/DSA/tree/master/0268-missing-number) |
 | [0295-find-median-from-data-stream](https://github.com/smit-1z/DSA/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/smit-1z/DSA/tree/master/0347-top-k-frequent-elements) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/smit-1z/DSA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0621-task-scheduler](https://github.com/smit-1z/DSA/tree/master/0621-task-scheduler) |
 | [0658-find-k-closest-elements](https://github.com/smit-1z/DSA/tree/master/0658-find-k-closest-elements) |
 | [0883-car-fleet](https://github.com/smit-1z/DSA/tree/master/0883-car-fleet) |
@@ -139,6 +142,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0023-merge-k-sorted-lists](https://github.com/smit-1z/DSA/tree/master/0023-merge-k-sorted-lists) |
 | [0295-find-median-from-data-stream](https://github.com/smit-1z/DSA/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/smit-1z/DSA/tree/master/0347-top-k-frequent-elements) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/smit-1z/DSA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0621-task-scheduler](https://github.com/smit-1z/DSA/tree/master/0621-task-scheduler) |
 | [0658-find-k-closest-elements](https://github.com/smit-1z/DSA/tree/master/0658-find-k-closest-elements) |
 | [1074-high-five](https://github.com/smit-1z/DSA/tree/master/1074-high-five) |
@@ -270,6 +274,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/smit-1z/DSA/tree/master/0074-search-a-2d-matrix) |
 | [0079-word-search](https://github.com/smit-1z/DSA/tree/master/0079-word-search) |
 | [0200-number-of-islands](https://github.com/smit-1z/DSA/tree/master/0200-number-of-islands) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/smit-1z/DSA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0419-battleships-in-a-board](https://github.com/smit-1z/DSA/tree/master/0419-battleships-in-a-board) |
 | [0695-max-area-of-island](https://github.com/smit-1z/DSA/tree/master/0695-max-area-of-island) |
 | [1396-count-servers-that-communicate](https://github.com/smit-1z/DSA/tree/master/1396-count-servers-that-communicate) |
