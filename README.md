@@ -150,6 +150,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0743-network-delay-time](https://github.com/smit-1z/DSA/tree/master/0743-network-delay-time) |
 | [1074-high-five](https://github.com/smit-1z/DSA/tree/master/1074-high-five) |
 | [1488-avoid-flood-in-the-city](https://github.com/smit-1z/DSA/tree/master/1488-avoid-flood-in-the-city) |
+| [3650-minimum-cost-path-with-edge-reversals](https://github.com/smit-1z/DSA/tree/master/3650-minimum-cost-path-with-edge-reversals) |
 ## Hash Table
 |  |
 | ------- |
@@ -480,6 +481,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/smit-1z/DSA/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/smit-1z/DSA/tree/master/0210-course-schedule-ii) |
 | [0743-network-delay-time](https://github.com/smit-1z/DSA/tree/master/0743-network-delay-time) |
+| [3650-minimum-cost-path-with-edge-reversals](https://github.com/smit-1z/DSA/tree/master/3650-minimum-cost-path-with-edge-reversals) |
 ## Topological Sort
 |  |
 | ------- |
@@ -489,4 +491,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0743-network-delay-time](https://github.com/smit-1z/DSA/tree/master/0743-network-delay-time) |
+| [3650-minimum-cost-path-with-edge-reversals](https://github.com/smit-1z/DSA/tree/master/3650-minimum-cost-path-with-edge-reversals) |
 <!---LeetCode Topics End-->
