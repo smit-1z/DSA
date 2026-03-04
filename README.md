@@ -147,6 +147,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/smit-1z/DSA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0621-task-scheduler](https://github.com/smit-1z/DSA/tree/master/0621-task-scheduler) |
 | [0658-find-k-closest-elements](https://github.com/smit-1z/DSA/tree/master/0658-find-k-closest-elements) |
+| [0743-network-delay-time](https://github.com/smit-1z/DSA/tree/master/0743-network-delay-time) |
 | [1074-high-five](https://github.com/smit-1z/DSA/tree/master/1074-high-five) |
 | [1488-avoid-flood-in-the-city](https://github.com/smit-1z/DSA/tree/master/1488-avoid-flood-in-the-city) |
 ## Hash Table
@@ -206,6 +207,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0419-battleships-in-a-board](https://github.com/smit-1z/DSA/tree/master/0419-battleships-in-a-board) |
 | [0543-diameter-of-binary-tree](https://github.com/smit-1z/DSA/tree/master/0543-diameter-of-binary-tree) |
 | [0695-max-area-of-island](https://github.com/smit-1z/DSA/tree/master/0695-max-area-of-island) |
+| [0743-network-delay-time](https://github.com/smit-1z/DSA/tree/master/0743-network-delay-time) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/smit-1z/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1021-distribute-coins-in-binary-tree](https://github.com/smit-1z/DSA/tree/master/1021-distribute-coins-in-binary-tree) |
 | [1396-count-servers-that-communicate](https://github.com/smit-1z/DSA/tree/master/1396-count-servers-that-communicate) |
@@ -460,6 +462,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/smit-1z/DSA/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/smit-1z/DSA/tree/master/0210-course-schedule-ii) |
 | [0695-max-area-of-island](https://github.com/smit-1z/DSA/tree/master/0695-max-area-of-island) |
+| [0743-network-delay-time](https://github.com/smit-1z/DSA/tree/master/0743-network-delay-time) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/smit-1z/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1396-count-servers-that-communicate](https://github.com/smit-1z/DSA/tree/master/1396-count-servers-that-communicate) |
 ## Union Find
@@ -476,9 +479,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0207-course-schedule](https://github.com/smit-1z/DSA/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/smit-1z/DSA/tree/master/0210-course-schedule-ii) |
+| [0743-network-delay-time](https://github.com/smit-1z/DSA/tree/master/0743-network-delay-time) |
 ## Topological Sort
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/smit-1z/DSA/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/smit-1z/DSA/tree/master/0210-course-schedule-ii) |
+## Shortest Path
+|  |
+| ------- |
+| [0743-network-delay-time](https://github.com/smit-1z/DSA/tree/master/0743-network-delay-time) |
 <!---LeetCode Topics End-->
