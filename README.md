@@ -244,6 +244,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0460-lfu-cache](https://github.com/smit-1z/DSA/tree/master/0460-lfu-cache) |
 | [0859-design-circular-deque](https://github.com/smit-1z/DSA/tree/master/0859-design-circular-deque) |
 | [1290-convert-binary-number-in-a-linked-list-to-integer](https://github.com/smit-1z/DSA/tree/master/1290-convert-binary-number-in-a-linked-list-to-integer) |
+| [1669-merge-in-between-linked-lists](https://github.com/smit-1z/DSA/tree/master/1669-merge-in-between-linked-lists) |
 ## Design
 |  |
 | ------- |
