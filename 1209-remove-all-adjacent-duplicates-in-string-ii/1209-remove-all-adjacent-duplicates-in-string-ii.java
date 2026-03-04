@@ -1,29 +1,28 @@
 class Solution {
     public String removeDuplicates(String s, int k) {
-        Stack<Character> charStack = new Stack<>();
         Stack<Integer> freqStack = new Stack<>();
+        Stack<Character> charStack = new Stack<>();
 
         for (char c : s.toCharArray()) {
-            if (charStack.isEmpty() || c != charStack.peek()) {
+            if (charStack.isEmpty() || charStack.peek() != c) {
                 charStack.push(c);
                 freqStack.push(1);
             } else {
                 int freq = freqStack.pop();
-                freq++;
-                if(freq ==k){
+                freq += 1;
+                if (freq == k) {
                     charStack.pop();
-                }else{
+                } else {
                     freqStack.push(freq);
                 }
-               
             }
         }
-        StringBuilder res = new StringBuilder();
+ StringBuilder res = new StringBuilder();
 
-        while (!charStack.isEmpty()) {
+        while(!charStack.isEmpty()){
             int freq = freqStack.pop();
             char c = charStack.pop();
-            for (int i = 0; i < freq; i++) {
+            for(int i = 0;i<freq;i++){
                 res.append(c);
             }
         }
