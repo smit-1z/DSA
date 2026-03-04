@@ -3,21 +3,18 @@ class Solution {
         int lMax = 0;
         int rMax = 0;
         int l = 0;
-        int r = height.length-1;
+        int r = height.length - 1;
         int res = 0;
 
-        while(l < r){
-            if(height[l] < height[r]){
-                lMax = Math.max(lMax, height[l]);
-                res += lMax - height[l];
-                l++;
-            }else{
-                rMax = Math.max(rMax,height[r]);
-                res += rMax - height[r];
-                r--;
+        while (l < r) {
+            if (height[l] < height[r]) {
+                lMax = Math.max(height[l], lMax);
+                res += lMax - height[l++];
+            } else {
+                rMax = Math.max(height[r], rMax);
+                res += rMax - height[r--];
             }
         }
-
         return res;
     }
 }
