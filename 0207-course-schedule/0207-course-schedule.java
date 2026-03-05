@@ -14,7 +14,7 @@ class Solution {
         }
 
         for(int i=0;i<numCourses;i++){
-            if(findCycle(i)){
+            if(!visited.contains(i) && findCycle(i)){
                 return false;
             }
         }
