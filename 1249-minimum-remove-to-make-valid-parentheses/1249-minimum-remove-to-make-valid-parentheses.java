@@ -18,21 +18,20 @@ class Solution {
             }
         }
 
-        StringBuilder res = new StringBuilder();
 
        for(int i = str.length-1;i>=0;i--){
-        char c = str[i];
-        if(c == '(' && open>0){
+        if(str[i] == '(' && open>0){
             open--;
-            continue;
+            str[i] = '0';
         }
-
-        if(c == '0'){
-            continue;
-        }
-
-        res.append(c);
        }
-        return res.reverse().toString();
+        StringBuilder res = new StringBuilder();
+
+        for(char c :str){
+            if(c !='0'){
+                res.append(c);
+            }
+        }
+        return res.toString();
     }
 }
