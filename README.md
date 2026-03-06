@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/smit-1z/DSA/tree/master/0200-number-of-islands) |
 | [0204-count-primes](https://github.com/smit-1z/DSA/tree/master/0204-count-primes) |
 | [0209-minimum-size-subarray-sum](https://github.com/smit-1z/DSA/tree/master/0209-minimum-size-subarray-sum) |
+| [0239-sliding-window-maximum](https://github.com/smit-1z/DSA/tree/master/0239-sliding-window-maximum) |
 | [0249-group-shifted-strings](https://github.com/smit-1z/DSA/tree/master/0249-group-shifted-strings) |
 | [0253-meeting-rooms-ii](https://github.com/smit-1z/DSA/tree/master/0253-meeting-rooms-ii) |
 | [0268-missing-number](https://github.com/smit-1z/DSA/tree/master/0268-missing-number) |
@@ -90,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/smit-1z/DSA/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0209-minimum-size-subarray-sum](https://github.com/smit-1z/DSA/tree/master/0209-minimum-size-subarray-sum) |
+| [0239-sliding-window-maximum](https://github.com/smit-1z/DSA/tree/master/0239-sliding-window-maximum) |
 | [0567-permutation-in-string](https://github.com/smit-1z/DSA/tree/master/0567-permutation-in-string) |
 | [0643-maximum-average-subarray-i](https://github.com/smit-1z/DSA/tree/master/0643-maximum-average-subarray-i) |
 | [0658-find-k-closest-elements](https://github.com/smit-1z/DSA/tree/master/0658-find-k-closest-elements) |
@@ -148,6 +150,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/smit-1z/DSA/tree/master/0023-merge-k-sorted-lists) |
+| [0239-sliding-window-maximum](https://github.com/smit-1z/DSA/tree/master/0239-sliding-window-maximum) |
 | [0253-meeting-rooms-ii](https://github.com/smit-1z/DSA/tree/master/0253-meeting-rooms-ii) |
 | [0295-find-median-from-data-stream](https://github.com/smit-1z/DSA/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/smit-1z/DSA/tree/master/0347-top-k-frequent-elements) |
@@ -335,6 +338,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Queue
 |  |
 | ------- |
+| [0239-sliding-window-maximum](https://github.com/smit-1z/DSA/tree/master/0239-sliding-window-maximum) |
 | [0859-design-circular-deque](https://github.com/smit-1z/DSA/tree/master/0859-design-circular-deque) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/smit-1z/DSA/tree/master/1951-find-the-winner-of-the-circular-game) |
 ## Simulation
@@ -514,4 +518,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0743-network-delay-time](https://github.com/smit-1z/DSA/tree/master/0743-network-delay-time) |
 | [3650-minimum-cost-path-with-edge-reversals](https://github.com/smit-1z/DSA/tree/master/3650-minimum-cost-path-with-edge-reversals) |
+## Monotonic Queue
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/smit-1z/DSA/tree/master/0239-sliding-window-maximum) |
 <!---LeetCode Topics End-->
