@@ -52,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/smit-1z/DSA/tree/master/0695-max-area-of-island) |
 | [0735-asteroid-collision](https://github.com/smit-1z/DSA/tree/master/0735-asteroid-collision) |
 | [0752-open-the-lock](https://github.com/smit-1z/DSA/tree/master/0752-open-the-lock) |
+| [0845-longest-mountain-in-array](https://github.com/smit-1z/DSA/tree/master/0845-longest-mountain-in-array) |
 | [0859-design-circular-deque](https://github.com/smit-1z/DSA/tree/master/0859-design-circular-deque) |
 | [0883-car-fleet](https://github.com/smit-1z/DSA/tree/master/0883-car-fleet) |
 | [1039-find-the-town-judge](https://github.com/smit-1z/DSA/tree/master/1039-find-the-town-judge) |
@@ -125,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0295-find-median-from-data-stream](https://github.com/smit-1z/DSA/tree/master/0295-find-median-from-data-stream) |
 | [0567-permutation-in-string](https://github.com/smit-1z/DSA/tree/master/0567-permutation-in-string) |
 | [0658-find-k-closest-elements](https://github.com/smit-1z/DSA/tree/master/0658-find-k-closest-elements) |
+| [0845-longest-mountain-in-array](https://github.com/smit-1z/DSA/tree/master/0845-longest-mountain-in-array) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/smit-1z/DSA/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 ## Sorting
 |  |
@@ -292,6 +294,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0062-unique-paths](https://github.com/smit-1z/DSA/tree/master/0062-unique-paths) |
 | [0064-minimum-path-sum](https://github.com/smit-1z/DSA/tree/master/0064-minimum-path-sum) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/smit-1z/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0845-longest-mountain-in-array](https://github.com/smit-1z/DSA/tree/master/0845-longest-mountain-in-array) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/smit-1z/DSA/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 ## Matrix
 |  |
@@ -458,6 +461,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0204-count-primes](https://github.com/smit-1z/DSA/tree/master/0204-count-primes) |
+| [0845-longest-mountain-in-array](https://github.com/smit-1z/DSA/tree/master/0845-longest-mountain-in-array) |
 ## Number Theory
 |  |
 | ------- |
