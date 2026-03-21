@@ -1,28 +1,29 @@
 class Node {
-    Node next;
-    Node prev;
     int key;
-    int val;
+    int value;
+    Node prev;
+    Node next;
 
-    public Node(int key, int val) {
+    Node(int key, int value) {
         this.key = key;
-        this.val = val;
+        this.value = value;
+        this.prev = null;
+        this.next = null;
     }
 }
 
 class LRUCache {
+
+    Map<Integer, Node> map;
+    int capacity;
     Node head;
     Node tail;
-    int capacity;
-    Map<Integer, Node> map;
 
     public LRUCache(int capacity) {
         this.map = new HashMap<>();
         this.capacity = capacity;
-
         this.head = new Node(0, 0);
         this.tail = new Node(0, 0);
-
         head.next = tail;
         tail.prev = head;
     }
@@ -31,42 +32,37 @@ class LRUCache {
         if (!map.containsKey(key)) {
             return -1;
         }
-
         Node node = map.get(key);
         remove(node);
         add(node);
-        return node.val;
+        return node.value;
     }
 
-   public void put(int key, int value) {
-    if (map.containsKey(key)) {
-        Node node = map.get(key);
-        node.val = value;
-        remove(node);
-        add(node);
-    } else {
-        Node node = new Node(key, value);
-        map.put(key, node);
-        add(node);
+    public void put(int key, int value) {
+        if(map.containsKey(key)){
+            remove(map.get(key));
+            map.remove(key);
+        }
+
+        Node n = new Node(key,value);
+        map.put(key, n);
+        add(n);
+        if(map.size() >capacity){
+            map.remove(tail.prev.key);
+            remove(tail.prev);
+        }
     }
 
-    if (map.size() > capacity) {
-        Node lru = tail.prev;
-        remove(lru);
-        map.remove(lru.key);
-    }
-}
-
-    public void add(Node node) {
-        Node next = head.next;
-        node.next = next;
-        node.prev = head;
-        head.next = node;
-        next.prev = node;
+    public void add(Node n){
+        Node headNext = head.next;
+        head.next = n;
+        n.prev = head;
+        n.next = headNext;
+        headNext.prev = n;
     }
 
-    public void remove(Node node) {
-        node.prev.next = node.next;
-        node.next.prev = node.prev;
+    public void remove(Node n){
+        n.next.prev = n.prev;
+        n.prev.next = n.next;
     }
 }
