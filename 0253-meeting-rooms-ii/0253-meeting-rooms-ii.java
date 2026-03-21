@@ -1,40 +1,34 @@
 class Solution {
     public int minMeetingRooms(int[][] intervals) {
-        int n = intervals.length;
-        int rooms = 0;
-        int maxRooms = 0;
+        int size = intervals.length;
+        int[] start = new int[size];
+        int[] end = new int[size];
 
-        int[] start = new int[n];
-        int[] end = new int[n];
-        int pos = 0;
-        for(int [] interval:intervals){
-            start[pos] = interval[0];
-            end[pos] = interval[1];
-            pos++;
+       for(int i=0;i<size;i++){
+            int[] interval = intervals[i];
+            start[i] = interval[0];
+            end[i] = interval[1];
         }
 
         Arrays.sort(start);
         Arrays.sort(end);
 
-        int i =0;
+        int rooms = 0;
+        int minRooms = 0;
+
+        int i = 0;
         int j = 0;
-        int startTime = 0;
-        int endTime = 0;
-
-        while(i<n){
-            startTime = start[i];
-            endTime = end[j];
-
-            if(startTime < endTime){
-                rooms++;
+        while(i < size){
+            if(start[i] < end[j]){
                 i++;
+                rooms++;
             }else{
-                rooms--;
                 j++;
+                rooms--;
             }
-            maxRooms = Math.max(rooms,maxRooms);
+            minRooms = Math.max(rooms,minRooms);
         }
 
-        return maxRooms;
+        return minRooms;
     }
 }
