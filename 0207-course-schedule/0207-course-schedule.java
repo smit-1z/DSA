@@ -8,19 +8,18 @@ class Solution {
         this.visited = new HashSet<>();
         this.visiting = new HashSet<>();
 
-        for(int i=0;i<numCourses;i++){
-            map.put(i,new ArrayList<>());
+        for (int i = 0; i < numCourses; i++) {
+            map.put(i, new ArrayList<>());
         }
         for (int[] preReq : prerequisites) {
             map.get(preReq[0]).add(preReq[1]);
         }
 
         for (int i = 0; i < numCourses; i++) {
-            if (cycleFound(i)) {
+            if (!visited.contains(i) && cycleFound(i)) {
                 return false;
             }
         }
-
         return true;
     }
 
@@ -29,17 +28,15 @@ class Solution {
             return true;
         }
 
-        if(visited.contains(courseId)){
+        if (visited.contains(courseId)) {
             return false;
         }
 
         visiting.add(courseId);
 
         for (int preReq : map.get(courseId)) {
-            if (!visited.contains(preReq)) {
-                if (cycleFound(courseId)) {
-                    return true;
-                }
+            if (cycleFound(preReq)) {
+                return true;
             }
         }
         visiting.remove(courseId);
