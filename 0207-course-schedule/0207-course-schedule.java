@@ -1,43 +1,49 @@
 class Solution {
-    Map<Integer,List<Integer>> map ;
-    Set<Integer> visiting = new HashSet<>();
-    Set<Integer> visited = new HashSet<>();
-
+    Set<Integer> visiting;
+    Set<Integer> visited;
+    Map<Integer, List<Integer>> map;
 
     public boolean canFinish(int numCourses, int[][] prerequisites) {
         this.map = new HashMap<>();
+        this.visited = new HashSet<>();
+        this.visiting = new HashSet<>();
+
         for(int i=0;i<numCourses;i++){
             map.put(i,new ArrayList<>());
         }
-        for(int [] prerequisite : prerequisites){
-            map.get(prerequisite[0]).add(prerequisite[1]);
+        for (int[] preReq : prerequisites) {
+            map.get(preReq[0]).add(preReq[1]);
         }
 
-        for(int i=0;i<numCourses;i++){
-            if(!visited.contains(i) && findCycle(i)){
+        for (int i = 0; i < numCourses; i++) {
+            if (cycleFound(i)) {
                 return false;
             }
         }
+
         return true;
     }
 
-    public boolean findCycle(int course){
-        if(visited.contains(course)){
-            return false;
-        }
-        if(visiting.contains(course)){
+    public boolean cycleFound(int courseId) {
+        if (visiting.contains(courseId)) {
             return true;
         }
 
-        visiting.add(course);
+        if(visited.contains(courseId)){
+            return false;
+        }
 
-        for(int preReq: map.get(course)){
-            if(findCycle(preReq)){
-                return true;
+        visiting.add(courseId);
+
+        for (int preReq : map.get(courseId)) {
+            if (!visited.contains(preReq)) {
+                if (cycleFound(courseId)) {
+                    return true;
+                }
             }
         }
-        visiting.remove(course);
-        visited.add(course);
+        visiting.remove(courseId);
+        visited.add(courseId);
         return false;
     }
 }
