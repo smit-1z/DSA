@@ -1,18 +1,26 @@
 class Solution {
-    ArrayList<Integer> q = new ArrayList<>();
+    int res = -1;
+    int count = 0;
 
     public int kthSmallest(TreeNode root, int k) {
-        dfs(root,k);
-        return q.get(k-1);
+        res = root.val;
+        dfs(root, k);
+        return res;
     }
 
-    public void dfs(TreeNode root,int k){
-        if(root == null || q.size() == k){
-            return ;
+    public void dfs(TreeNode root, int k) {
+        if (root == null)
+            return;
+        if (count == k)
+            return;
+        dfs(root.left, k);
+        count++;
+
+        if (count == k) {
+            res = root.val;
+            return;
         }
 
-        dfs(root.left,k);
-        q.add(root.val);
-        dfs(root.right,k);
+        dfs(root.right, k);
     }
 }
