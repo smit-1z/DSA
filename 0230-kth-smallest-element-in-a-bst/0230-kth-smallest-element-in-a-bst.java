@@ -1,12 +1,10 @@
 class Solution {
-    PriorityQueue<Integer> q = new PriorityQueue<>();
+    ArrayList<Integer> q = new ArrayList<>();
 
     public int kthSmallest(TreeNode root, int k) {
         dfs(root);
-        for(int i=0;i<k-1;i++){
-            q.poll();
-        }
-        return q.peek();
+        
+        return q.get(k-1);
     }
 
     public void dfs(TreeNode root){
@@ -14,8 +12,8 @@ class Solution {
             return ;
         }
 
-        q.offer(root.val);
         dfs(root.left);
+        q.add(root.val);
         dfs(root.right);
     }
 }
