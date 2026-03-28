@@ -366,6 +366,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0024-swap-nodes-in-pairs](https://github.com/smit-1z/DSA/tree/master/0024-swap-nodes-in-pairs) |
 | [0143-reorder-list](https://github.com/smit-1z/DSA/tree/master/0143-reorder-list) |
 | [0206-reverse-linked-list](https://github.com/smit-1z/DSA/tree/master/0206-reverse-linked-list) |
+| [0394-decode-string](https://github.com/smit-1z/DSA/tree/master/0394-decode-string) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/smit-1z/DSA/tree/master/1951-find-the-winner-of-the-circular-game) |
 ## Queue
 |  |
@@ -402,6 +403,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0249-group-shifted-strings](https://github.com/smit-1z/DSA/tree/master/0249-group-shifted-strings) |
 | [0271-encode-and-decode-strings](https://github.com/smit-1z/DSA/tree/master/0271-encode-and-decode-strings) |
 | [0383-ransom-note](https://github.com/smit-1z/DSA/tree/master/0383-ransom-note) |
+| [0394-decode-string](https://github.com/smit-1z/DSA/tree/master/0394-decode-string) |
 | [0567-permutation-in-string](https://github.com/smit-1z/DSA/tree/master/0567-permutation-in-string) |
 | [0696-count-binary-substrings](https://github.com/smit-1z/DSA/tree/master/0696-count-binary-substrings) |
 | [0752-open-the-lock](https://github.com/smit-1z/DSA/tree/master/0752-open-the-lock) |
@@ -421,6 +423,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0143-reorder-list](https://github.com/smit-1z/DSA/tree/master/0143-reorder-list) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/smit-1z/DSA/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0155-min-stack](https://github.com/smit-1z/DSA/tree/master/0155-min-stack) |
+| [0394-decode-string](https://github.com/smit-1z/DSA/tree/master/0394-decode-string) |
 | [0445-add-two-numbers-ii](https://github.com/smit-1z/DSA/tree/master/0445-add-two-numbers-ii) |
 | [0735-asteroid-collision](https://github.com/smit-1z/DSA/tree/master/0735-asteroid-collision) |
 | [0883-car-fleet](https://github.com/smit-1z/DSA/tree/master/0883-car-fleet) |
