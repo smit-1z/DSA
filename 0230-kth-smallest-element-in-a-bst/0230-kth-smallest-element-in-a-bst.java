@@ -3,19 +3,20 @@ class Solution {
     int count = 0;
 
     public int kthSmallest(TreeNode root, int k) {
-        res = root.val;
         dfs(root, k);
         return res;
     }
 
     public void dfs(TreeNode root, int k) {
-        if (root == null)
+        if (root == null || count == k) {
             return;
-        if (count == k)
-            return;
-        dfs(root.left, k);
-        count++;
+        }
 
+        dfs(root.left, k);
+
+        if (count == k) return;
+
+        count++;
         if (count == k) {
             res = root.val;
             return;
