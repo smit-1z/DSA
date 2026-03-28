@@ -46,6 +46,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/smit-1z/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/smit-1z/DSA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0419-battleships-in-a-board](https://github.com/smit-1z/DSA/tree/master/0419-battleships-in-a-board) |
+| [0540-single-element-in-a-sorted-array](https://github.com/smit-1z/DSA/tree/master/0540-single-element-in-a-sorted-array) |
 | [0560-subarray-sum-equals-k](https://github.com/smit-1z/DSA/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/smit-1z/DSA/tree/master/0621-task-scheduler) |
 | [0643-maximum-average-subarray-i](https://github.com/smit-1z/DSA/tree/master/0643-maximum-average-subarray-i) |
@@ -84,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/smit-1z/DSA/tree/master/0268-missing-number) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/smit-1z/DSA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0441-arranging-coins](https://github.com/smit-1z/DSA/tree/master/0441-arranging-coins) |
+| [0540-single-element-in-a-sorted-array](https://github.com/smit-1z/DSA/tree/master/0540-single-element-in-a-sorted-array) |
 | [0658-find-k-closest-elements](https://github.com/smit-1z/DSA/tree/master/0658-find-k-closest-elements) |
 | [0981-time-based-key-value-store](https://github.com/smit-1z/DSA/tree/master/0981-time-based-key-value-store) |
 | [1046-max-consecutive-ones-iii](https://github.com/smit-1z/DSA/tree/master/1046-max-consecutive-ones-iii) |
