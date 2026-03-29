@@ -18,17 +18,16 @@ class Solution {
 
         int i = 0;
         int j = 0;
-        while(i < size){
+        while(i<size){
             if(start[i] < end[j]){
-                i++;
                 rooms++;
+                i++;
             }else{
-                j++;
                 rooms--;
+                j++;
             }
-            minRooms = Math.max(rooms,minRooms);
+            minRooms = Math.max(rooms, minRooms);
         }
-
         return minRooms;
     }
 }
