@@ -1,31 +1,30 @@
 class Solution {
     public String decodeString(String s) {
-        Stack<String> stringStack = new Stack<>();
-        Stack<Integer> integerStack = new Stack<>();
+        Stack<Integer> intStack = new Stack<>();
+        Stack<String> charStack = new Stack<>();
 
-        StringBuilder cur = new StringBuilder();
+        StringBuilder curr = new StringBuilder();
+        int digit = 0;
 
-        int k =0;
-        
-        for(char c : s.toCharArray()){
-            if(Character.isDigit(c)){
-                k = k*10 + (c - '0');
-            }else if(c == '['){
-                stringStack.push(cur.toString());
-                integerStack.push(k);
-                cur = new StringBuilder();
-                k = 0;
-            }else if(c == ']'){
-                String temp = cur.toString();
-                cur = new StringBuilder(stringStack.pop());
-                int count = integerStack.pop();
-                for(int i=0;i<count;i++){
-                    cur.append(temp);
+        for(int i=0;i<s.length();i++){
+            if(Character.isDigit(s.charAt(i))){
+                digit = digit*10 + (s.charAt(i) - '0');
+            }else if(s.charAt(i) == '['){
+                charStack.push(curr.toString());
+                intStack.push(digit);
+                curr = new StringBuilder();
+                digit = 0;
+            }else if (s.charAt(i) == ']'){
+                String temp = curr.toString();
+                curr = new StringBuilder(charStack.pop());
+                int freq = intStack.pop();
+                for(int j=0;j<freq;j++){
+                    curr.append(temp);
                 }
             }else{
-                cur.append(c);
+                curr.append(s.charAt(i));
             }
-        }
-        return cur.toString();
+        } 
+        return curr.toString();
     }
 }
