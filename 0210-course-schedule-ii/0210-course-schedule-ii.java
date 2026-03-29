@@ -1,46 +1,47 @@
 class Solution {
-    Map<Integer,Boolean> visiting = new HashMap<>();
-    List<Integer> result = new ArrayList<>();
-    Map<Integer,List<Integer>> preReqs = new HashMap<>();
+    List<Integer> res = new ArrayList<>();
+    Map<Integer, List<Integer>> map = new HashMap<>();
+    Map<Integer, Boolean> visiting = new HashMap<>();
 
     public int[] findOrder(int numCourses, int[][] prerequisites) {
-        for(int i=0;i<numCourses;i++){
-            preReqs.put(i,new ArrayList<>());
+
+        for (int i = 0; i < numCourses; i++) {
+            map.put(i, new ArrayList<>());
         }
 
-        for(int[] preReq : prerequisites){
-            preReqs.get(preReq[0]).add(preReq[1]);
+        for (int[] pre : prerequisites) {
+            map.get(pre[0]).add(pre[1]);
         }
 
-        for(int i =0;i<numCourses;i++){
-            if(!findCycle(i)){
-                return new int[]{};
+        for (int i = 0; i < numCourses; i++) {
+            if (findCycle(i)) {
+                return new int[] {};
             }
         }
 
-        int[] resArray = new int[result.size()];
+        int[] resArray = new int[res.size()];
 
-        for(int i=0;i<resArray.length;i++){
-            resArray[i] = result.get(i);
+        for (int i = 0; i < resArray.length; i++) {
+            resArray[i] = res.get(i);
         }
 
         return resArray;
     }
 
-    public boolean findCycle(int courseId){
-        if(visiting.containsKey(courseId)){
+    public boolean findCycle(int courseId) {
+        if (visiting.containsKey(courseId)) {
             return visiting.get(courseId);
         }
+        visiting.put(courseId, true);
 
-        visiting.put(courseId,false);
-        for(int preReq:preReqs.get(courseId)){
-            if(!findCycle(preReq)){
-                return false;
+        for (int pre : map.get(courseId)) {
+            if (findCycle(pre)) {
+                return true;
             }
         }
 
-        visiting.put(courseId,true);
-        result.add(courseId);
-        return true;
+        visiting.put(courseId, false);
+        res.add(courseId);
+        return false;
     }
 }
