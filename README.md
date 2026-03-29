@@ -196,6 +196,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0249-group-shifted-strings](https://github.com/smit-1z/DSA/tree/master/0249-group-shifted-strings) |
 | [0268-missing-number](https://github.com/smit-1z/DSA/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/smit-1z/DSA/tree/master/0347-top-k-frequent-elements) |
+| [0359-logger-rate-limiter](https://github.com/smit-1z/DSA/tree/master/0359-logger-rate-limiter) |
 | [0383-ransom-note](https://github.com/smit-1z/DSA/tree/master/0383-ransom-note) |
 | [0460-lfu-cache](https://github.com/smit-1z/DSA/tree/master/0460-lfu-cache) |
 | [0560-subarray-sum-equals-k](https://github.com/smit-1z/DSA/tree/master/0560-subarray-sum-equals-k) |
@@ -308,6 +309,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0155-min-stack](https://github.com/smit-1z/DSA/tree/master/0155-min-stack) |
 | [0271-encode-and-decode-strings](https://github.com/smit-1z/DSA/tree/master/0271-encode-and-decode-strings) |
 | [0295-find-median-from-data-stream](https://github.com/smit-1z/DSA/tree/master/0295-find-median-from-data-stream) |
+| [0359-logger-rate-limiter](https://github.com/smit-1z/DSA/tree/master/0359-logger-rate-limiter) |
 | [0460-lfu-cache](https://github.com/smit-1z/DSA/tree/master/0460-lfu-cache) |
 | [0859-design-circular-deque](https://github.com/smit-1z/DSA/tree/master/0859-design-circular-deque) |
 | [0981-time-based-key-value-store](https://github.com/smit-1z/DSA/tree/master/0981-time-based-key-value-store) |
@@ -459,6 +461,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/smit-1z/DSA/tree/master/0295-find-median-from-data-stream) |
+| [0359-logger-rate-limiter](https://github.com/smit-1z/DSA/tree/master/0359-logger-rate-limiter) |
 ## Backtracking
 |  |
 | ------- |
