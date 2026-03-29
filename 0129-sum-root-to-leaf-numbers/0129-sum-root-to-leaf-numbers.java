@@ -11,6 +11,7 @@ class Solution {
         
         if(root.left == null && root.right == null){
             sum+= currentVal;
+            return;
         }
 
         if(root.left!= null) dfs(root.left,currentVal);
