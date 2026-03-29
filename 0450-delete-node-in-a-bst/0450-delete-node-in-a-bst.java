@@ -21,7 +21,6 @@ class Solution {
 
                 n.left = root.left;
                 TreeNode res = root.right;
-                root = null;
                 return res;
             }
         }
