@@ -3,26 +3,27 @@ class Solution {
         int n = arr.length;
         int i = 1;
         int res = 0;
+    
+        while(i < n-1){
+           if(arr[i] > arr[i-1] && arr[i] > arr[i+1]){
+             int l = i ;
+            int r = i;
 
-        while (i < n - 1) {
-            if (arr[i] > arr[i-1] && arr[i] > arr[i + 1]) {
-                int left = i;
-                int right = i;
+            while(l > 0 && arr[l] > arr[l-1]){
+                l--;
+            } 
 
-                while (left > 0 && arr[left-1] < arr[left]) {
-                    left--;
-                }
-
-                while (right < n - 1 && arr[right] > arr[right + 1]) {
-                    right++;
-                }
-
-                res = Math.max(res, right - left + 1);
-                i = right;
-            } else {
-                i++;
+            while(r <n-1 && arr[r] > arr[r+1]){
+                r++;
             }
+
+            res = Math.max(res,r-l + 1);
+            i = r;
+           }else{
+            i++;
+           }
         }
+
         return res;
     }
 }
