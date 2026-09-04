@@ -602,4 +602,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0572-subtree-of-another-tree](https://github.com/smit-1z/DSA/tree/master/0572-subtree-of-another-tree) |
+## Quicksort
+|  |
+| ------- |
+| [0056-merge-intervals](https://github.com/smit-1z/DSA/tree/master/0056-merge-intervals) |
 <!---LeetCode Topics End-->
