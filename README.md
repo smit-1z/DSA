@@ -610,4 +610,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0207-course-schedule](https://github.com/smit-1z/DSA/tree/master/0207-course-schedule) |
+## Tournament Sort
+|  |
+| ------- |
+| [0023-merge-k-sorted-lists](https://github.com/smit-1z/DSA/tree/master/0023-merge-k-sorted-lists) |
 <!---LeetCode Topics End-->
