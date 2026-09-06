@@ -62,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0875-koko-eating-bananas](https://github.com/smit-1z/DSA/tree/master/0875-koko-eating-bananas) |
 | [0883-car-fleet](https://github.com/smit-1z/DSA/tree/master/0883-car-fleet) |
 | [0994-rotting-oranges](https://github.com/smit-1z/DSA/tree/master/0994-rotting-oranges) |
+| [1011-capacity-to-ship-packages-within-d-days](https://github.com/smit-1z/DSA/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1039-find-the-town-judge](https://github.com/smit-1z/DSA/tree/master/1039-find-the-town-judge) |
 | [1046-max-consecutive-ones-iii](https://github.com/smit-1z/DSA/tree/master/1046-max-consecutive-ones-iii) |
 | [1074-high-five](https://github.com/smit-1z/DSA/tree/master/1074-high-five) |
@@ -97,6 +98,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0658-find-k-closest-elements](https://github.com/smit-1z/DSA/tree/master/0658-find-k-closest-elements) |
 | [0875-koko-eating-bananas](https://github.com/smit-1z/DSA/tree/master/0875-koko-eating-bananas) |
 | [0981-time-based-key-value-store](https://github.com/smit-1z/DSA/tree/master/0981-time-based-key-value-store) |
+| [1011-capacity-to-ship-packages-within-d-days](https://github.com/smit-1z/DSA/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1046-max-consecutive-ones-iii](https://github.com/smit-1z/DSA/tree/master/1046-max-consecutive-ones-iii) |
 | [1488-avoid-flood-in-the-city](https://github.com/smit-1z/DSA/tree/master/1488-avoid-flood-in-the-city) |
 | [1539-kth-missing-positive-number](https://github.com/smit-1z/DSA/tree/master/1539-kth-missing-positive-number) |
