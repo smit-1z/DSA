@@ -1,44 +1,42 @@
 class Solution {
     public int shipWithinDays(int[] weights, int days) {
-        int n = weights.length;
-        int minCapacity = 0;
-        int maxCapacity = 0;
+        int min = 0;
+        int max = 0;
 
         for (int w : weights) {
-            minCapacity = Math.max(minCapacity, w);
-            maxCapacity += w;
+            max += w;
+            min = Math.max(w, min);
         }
-        int res = maxCapacity;
-        int mid = 0;
 
-        while (minCapacity <= maxCapacity) {
-            mid = minCapacity + (maxCapacity - minCapacity) / 2;
-            if (canFit(weights, mid, days)) {
-                res = mid;
-                maxCapacity = mid - 1;
+
+     while (min < max){
+            int mid = min + (max - min) / 2;
+            if (canFit(weights, days, mid)) {
+                max = mid ;
             } else {
-                minCapacity = mid + 1;
+                min = mid + 1;
             }
         }
 
-        return res;
+        return min;
     }
 
-    public boolean canFit(int[] weights, int capacity, int allowedDays) {
-        int days = 1;
-        int currWeight = 0;
+    public boolean canFit(int[] weights, int days, int capacity) {
+
+        int weight = 0;
+        int usedDays = 1;
 
         for (int w : weights) {
-            if (currWeight + w > capacity) {
-                days++;
-                currWeight = 0;
+            if (weight + w > capacity) {
+                usedDays++;
+                weight = 0;
             }
-            currWeight+=w;
-            if(days>allowedDays){
+            weight += w;
+            if (usedDays > days) {
                 return false;
             }
         }
-
         return true;
+
     }
 }
