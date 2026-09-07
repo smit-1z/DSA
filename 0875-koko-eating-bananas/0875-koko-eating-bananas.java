@@ -3,31 +3,32 @@ class Solution {
         int min = 1;
         int max = 0;
 
-        int res = max;
-        for (int i = 0; i < piles.length; i++) {
-            max = Math.max(max, piles[i]);
+        for (int pile : piles) {
+            max = Math.max(max, pile);
         }
-
+        int res = max;
         while (min <= max) {
             int mid = min + (max - min) / 2;
-            if (canFinish(mid, piles, h)) {
+            if (canKokoEat(piles, mid, h)) {
                 res = mid;
-                max = mid-1;
+                max = mid - 1;
             } else {
                 min = mid + 1;
             }
         }
 
-        return res;
+        return min;
     }
 
-    public boolean canFinish(int speed, int[] piles, int hours) {
+    public boolean canKokoEat(int[] piles, int speed, int hours) {
         int usedHours = 0;
-        for (int num : piles) {
-            usedHours += Math.ceilDiv(num, speed);
-            if (usedHours > hours)
+
+        for (int pile : piles) {
+            usedHours += Math.ceilDiv(pile, speed);
+            if (usedHours > hours) {
                 return false;
+            }
         }
-        return usedHours <= hours;
+        return true;
     }
 }
