@@ -242,6 +242,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0226-invert-binary-tree](https://github.com/smit-1z/DSA/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/smit-1z/DSA/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/smit-1z/DSA/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/smit-1z/DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0366-find-leaves-of-binary-tree](https://github.com/smit-1z/DSA/tree/master/0366-find-leaves-of-binary-tree) |
 | [0450-delete-node-in-a-bst](https://github.com/smit-1z/DSA/tree/master/0450-delete-node-in-a-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/smit-1z/DSA/tree/master/0543-diameter-of-binary-tree) |
@@ -263,6 +264,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0226-invert-binary-tree](https://github.com/smit-1z/DSA/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/smit-1z/DSA/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/smit-1z/DSA/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/smit-1z/DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0366-find-leaves-of-binary-tree](https://github.com/smit-1z/DSA/tree/master/0366-find-leaves-of-binary-tree) |
 | [0419-battleships-in-a-board](https://github.com/smit-1z/DSA/tree/master/0419-battleships-in-a-board) |
 | [0543-diameter-of-binary-tree](https://github.com/smit-1z/DSA/tree/master/0543-diameter-of-binary-tree) |
@@ -287,6 +289,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0226-invert-binary-tree](https://github.com/smit-1z/DSA/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/smit-1z/DSA/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/smit-1z/DSA/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/smit-1z/DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0366-find-leaves-of-binary-tree](https://github.com/smit-1z/DSA/tree/master/0366-find-leaves-of-binary-tree) |
 | [0450-delete-node-in-a-bst](https://github.com/smit-1z/DSA/tree/master/0450-delete-node-in-a-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/smit-1z/DSA/tree/master/0543-diameter-of-binary-tree) |
@@ -321,6 +324,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0155-min-stack](https://github.com/smit-1z/DSA/tree/master/0155-min-stack) |
 | [0271-encode-and-decode-strings](https://github.com/smit-1z/DSA/tree/master/0271-encode-and-decode-strings) |
 | [0295-find-median-from-data-stream](https://github.com/smit-1z/DSA/tree/master/0295-find-median-from-data-stream) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/smit-1z/DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0359-logger-rate-limiter](https://github.com/smit-1z/DSA/tree/master/0359-logger-rate-limiter) |
 | [0460-lfu-cache](https://github.com/smit-1z/DSA/tree/master/0460-lfu-cache) |
 | [0859-design-circular-deque](https://github.com/smit-1z/DSA/tree/master/0859-design-circular-deque) |
@@ -432,6 +436,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/smit-1z/DSA/tree/master/0242-valid-anagram) |
 | [0249-group-shifted-strings](https://github.com/smit-1z/DSA/tree/master/0249-group-shifted-strings) |
 | [0271-encode-and-decode-strings](https://github.com/smit-1z/DSA/tree/master/0271-encode-and-decode-strings) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/smit-1z/DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0383-ransom-note](https://github.com/smit-1z/DSA/tree/master/0383-ransom-note) |
 | [0394-decode-string](https://github.com/smit-1z/DSA/tree/master/0394-decode-string) |
 | [0567-permutation-in-string](https://github.com/smit-1z/DSA/tree/master/0567-permutation-in-string) |
@@ -564,6 +569,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/smit-1z/DSA/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/smit-1z/DSA/tree/master/0210-course-schedule-ii) |
 | [0226-invert-binary-tree](https://github.com/smit-1z/DSA/tree/master/0226-invert-binary-tree) |
+| [0297-serialize-and-deserialize-binary-tree](https://github.com/smit-1z/DSA/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0695-max-area-of-island](https://github.com/smit-1z/DSA/tree/master/0695-max-area-of-island) |
 | [0743-network-delay-time](https://github.com/smit-1z/DSA/tree/master/0743-network-delay-time) |
 | [0752-open-the-lock](https://github.com/smit-1z/DSA/tree/master/0752-open-the-lock) |
