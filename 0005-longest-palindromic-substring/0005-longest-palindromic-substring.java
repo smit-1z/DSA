@@ -3,29 +3,32 @@ class Solution {
         String res = new String();
 
         for(int i=0;i<s.length();i++){
-            String a = getLongestString(s, i, i);
-            String b = getLongestString(s, i, i+1);
+            String s1 = getLongestPalindrom(s, i,i);
+            String s2 = getLongestPalindrom(s, i,i+1);
 
-            if(b.length() > a.length()){
-                a = b;
+            if(s2.length() > s1.length() ){
+               s1 = s2;
+            }
+            
+            if(s1.length() > res.length()){
+               res = s1;
             }
 
-            if(a.length() > res.length()){
-                res = a;
-            }
-        } 
+        }
+
         return res;
     }
 
-    public String getLongestString(String s, int l, int r){
-        while(l >=0 && r < s.length()){
-            if(s.charAt(l) != s.charAt(r)){
-                break;
-            }else{
-                l--;
-                r++;
+    public String getLongestPalindrom(String s, int i, int j){
+        
+        while(i >=0 && j <s.length()){
+            if(s.charAt(i) != s.charAt(j)){
+              break;
             }
+            i--;
+            j++;
         }
-        return s.substring(l+1, r);
+        return s.substring(i+1,j);
     }
+
 }
