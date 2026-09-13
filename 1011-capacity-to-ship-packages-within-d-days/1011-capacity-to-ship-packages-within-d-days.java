@@ -29,11 +29,8 @@ class Solution {
                 currLoad = weight;
                 days++;
             }   
-            if(days>d){
-                return false;
-            }
         }
 
-        return true;
+        return days<=d;
     }
 }
