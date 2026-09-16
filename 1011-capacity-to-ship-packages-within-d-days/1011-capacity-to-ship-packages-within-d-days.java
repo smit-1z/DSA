@@ -7,17 +7,16 @@ class Solution {
             maxLoad+=weights[i];
             minLoad = Math.max(minLoad, weights[i]);
         }
-        int res = maxLoad;
-       while(minLoad <= maxLoad){
-        int mid = minLoad + (maxLoad-minLoad)/2;
+
+       while(minLoad < maxLoad){
+        int mid =minLoad + (maxLoad-minLoad)/2;
         if(canFit(mid, weights, days)){
-            res = mid;
-            maxLoad = mid-1;
+            maxLoad = mid;
         }else{
             minLoad = mid+1;
         }
        } 
-       return res;
+       return minLoad;
     }
 
     public boolean canFit(int load, int[] weights,int d){
