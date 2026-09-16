@@ -6,11 +6,8 @@ class Solution {
             while (!stack.isEmpty() && stack.peek() > 0 && a < 0) {
                 if (stack.peek() < -a) {
                     stack.pop();
-                } else if(stack.peek() == -a){
-                    stack.pop();
-                    a = 0;
-                    break;
-                }else{
+                } else {
+                    if(stack.peek() == -a) stack.pop();
                     a = 0;
                     break;
                 }
