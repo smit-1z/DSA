@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/smit-1z/DSA/tree/master/0347-top-k-frequent-elements) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/smit-1z/DSA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0419-battleships-in-a-board](https://github.com/smit-1z/DSA/tree/master/0419-battleships-in-a-board) |
+| [0496-next-greater-element-i](https://github.com/smit-1z/DSA/tree/master/0496-next-greater-element-i) |
 | [0525-contiguous-array](https://github.com/smit-1z/DSA/tree/master/0525-contiguous-array) |
 | [0540-single-element-in-a-sorted-array](https://github.com/smit-1z/DSA/tree/master/0540-single-element-in-a-sorted-array) |
 | [0560-subarray-sum-equals-k](https://github.com/smit-1z/DSA/tree/master/0560-subarray-sum-equals-k) |
@@ -218,6 +219,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0359-logger-rate-limiter](https://github.com/smit-1z/DSA/tree/master/0359-logger-rate-limiter) |
 | [0383-ransom-note](https://github.com/smit-1z/DSA/tree/master/0383-ransom-note) |
 | [0460-lfu-cache](https://github.com/smit-1z/DSA/tree/master/0460-lfu-cache) |
+| [0496-next-greater-element-i](https://github.com/smit-1z/DSA/tree/master/0496-next-greater-element-i) |
 | [0525-contiguous-array](https://github.com/smit-1z/DSA/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/smit-1z/DSA/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/smit-1z/DSA/tree/master/0567-permutation-in-string) |
@@ -468,6 +470,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0155-min-stack](https://github.com/smit-1z/DSA/tree/master/0155-min-stack) |
 | [0394-decode-string](https://github.com/smit-1z/DSA/tree/master/0394-decode-string) |
 | [0445-add-two-numbers-ii](https://github.com/smit-1z/DSA/tree/master/0445-add-two-numbers-ii) |
+| [0496-next-greater-element-i](https://github.com/smit-1z/DSA/tree/master/0496-next-greater-element-i) |
 | [0735-asteroid-collision](https://github.com/smit-1z/DSA/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/smit-1z/DSA/tree/master/0739-daily-temperatures) |
 | [0883-car-fleet](https://github.com/smit-1z/DSA/tree/master/0883-car-fleet) |
@@ -480,6 +483,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/smit-1z/DSA/tree/master/0042-trapping-rain-water) |
+| [0496-next-greater-element-i](https://github.com/smit-1z/DSA/tree/master/0496-next-greater-element-i) |
 | [0739-daily-temperatures](https://github.com/smit-1z/DSA/tree/master/0739-daily-temperatures) |
 | [0883-car-fleet](https://github.com/smit-1z/DSA/tree/master/0883-car-fleet) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/smit-1z/DSA/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
