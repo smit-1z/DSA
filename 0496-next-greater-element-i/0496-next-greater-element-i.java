@@ -6,9 +6,7 @@ class Solution {
         stack.push(nums2[0]);
         for (int i = 1; i < nums2.length; i++) {
             while (!stack.isEmpty() && nums2[i] > stack.peek()) {
-                if (!map.containsKey(stack.peek())) {
                     map.put(stack.peek(), nums2[i]);
-                }
                 stack.pop();
             }
             stack.push(nums2[i]);
