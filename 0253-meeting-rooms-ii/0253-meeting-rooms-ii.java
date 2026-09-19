@@ -12,10 +12,10 @@ class Solution {
         Arrays.sort(start);
         Arrays.sort(end);
 
-        int roomsInUse = 0;
-        int minRooms = 0;
+        int roomsInUse = 1;
+        int minRooms = 1;
 
-        int i = 0;
+        int i = 1;
         int j = 0;
         while (i < size) {
             if (start[i] < end[j]) {
