@@ -10,7 +10,7 @@ class Solution {
             }
             return  (getNext(nums1,nums2) +  getNext(nums1,nums2))/2.0;
         }else{
-            for(int i=0;i<(size-1)/2;i++){
+            for(int i=0;i<(size)/2;i++){
                getNext(nums1,nums2);  
             }
              return getNext(nums1,nums2);
