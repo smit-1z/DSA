@@ -4,30 +4,31 @@ class Solution {
         int[] start = new int[size];
         int[] end = new int[size];
 
-       for(int i=0;i<size;i++){
-            int[] interval = intervals[i];
-            start[i] = interval[0];
-            end[i] = interval[1];
+        for (int i = 0; i < size; i++) {
+            start[i] = intervals[i][0];
+            end[i] = intervals[i][1];
         }
 
         Arrays.sort(start);
         Arrays.sort(end);
 
-        int rooms = 0;
+        int roomsInUse = 0;
         int minRooms = 0;
 
         int i = 0;
         int j = 0;
-        while(i<size){
-            if(start[i] < end[j]){
-                rooms++;
+        while (i < size) {
+            if (start[i] < end[j]) {
                 i++;
-            }else{
-                rooms--;
+                roomsInUse++;
+            } else {
                 j++;
+                roomsInUse--;
             }
-            minRooms = Math.max(rooms, minRooms);
+            minRooms = Math.max(roomsInUse, minRooms);
         }
+
         return minRooms;
+
     }
 }
