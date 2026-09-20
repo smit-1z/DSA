@@ -1,24 +1,30 @@
 class TimeMap {
     Map<String,TreeMap<Integer,String>> map;
-
     public TimeMap() {
         this.map = new HashMap<>();
     }
     
     public void set(String key, String value, int timestamp) {
-        map.computeIfAbsent(key,k-> new TreeMap<>());
-        map.get(key).put(timestamp,value);
+        if(!map.containsKey(key)){
+            map.put(key, new TreeMap<>());
+        }
+        map.get(key).put(timestamp, value);
     }
     
     public String get(String key, int timestamp) {
         if(!map.containsKey(key)) return "";
 
-        TreeMap<Integer,String> tMap = map.get(key);
-        Integer floorKey = tMap.floorKey(timestamp);
+        TreeMap<Integer,String> entry = map.get(key);
+        Integer floorKey = entry.floorKey(timestamp);
+        if(floorKey!= null) return entry.get(floorKey); 
 
-        if(floorKey != null){
-            return tMap.get(floorKey);
-        }
-        return "";
+       return "";
     }
 }
+
+/**
+ * Your TimeMap object will be instantiated and called as such:
+ * TimeMap obj = new TimeMap();
+ * obj.set(key,value,timestamp);
+ * String param_2 = obj.get(key,timestamp);
+ */
