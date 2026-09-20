@@ -71,6 +71,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0859-design-circular-deque](https://github.com/smit-1z/DSA/tree/master/0859-design-circular-deque) |
 | [0875-koko-eating-bananas](https://github.com/smit-1z/DSA/tree/master/0875-koko-eating-bananas) |
 | [0883-car-fleet](https://github.com/smit-1z/DSA/tree/master/0883-car-fleet) |
+| [0973-k-closest-points-to-origin](https://github.com/smit-1z/DSA/tree/master/0973-k-closest-points-to-origin) |
 | [0994-rotting-oranges](https://github.com/smit-1z/DSA/tree/master/0994-rotting-oranges) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/smit-1z/DSA/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1039-find-the-town-judge](https://github.com/smit-1z/DSA/tree/master/1039-find-the-town-judge) |
@@ -184,6 +185,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0658-find-k-closest-elements](https://github.com/smit-1z/DSA/tree/master/0658-find-k-closest-elements) |
 | [0767-reorganize-string](https://github.com/smit-1z/DSA/tree/master/0767-reorganize-string) |
 | [0883-car-fleet](https://github.com/smit-1z/DSA/tree/master/0883-car-fleet) |
+| [0973-k-closest-points-to-origin](https://github.com/smit-1z/DSA/tree/master/0973-k-closest-points-to-origin) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/smit-1z/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1074-high-five](https://github.com/smit-1z/DSA/tree/master/1074-high-five) |
 | [1169-invalid-transactions](https://github.com/smit-1z/DSA/tree/master/1169-invalid-transactions) |
@@ -204,6 +206,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0658-find-k-closest-elements](https://github.com/smit-1z/DSA/tree/master/0658-find-k-closest-elements) |
 | [0743-network-delay-time](https://github.com/smit-1z/DSA/tree/master/0743-network-delay-time) |
 | [0767-reorganize-string](https://github.com/smit-1z/DSA/tree/master/0767-reorganize-string) |
+| [0973-k-closest-points-to-origin](https://github.com/smit-1z/DSA/tree/master/0973-k-closest-points-to-origin) |
 | [1074-high-five](https://github.com/smit-1z/DSA/tree/master/1074-high-five) |
 | [1488-avoid-flood-in-the-city](https://github.com/smit-1z/DSA/tree/master/1488-avoid-flood-in-the-city) |
 | [3650-minimum-cost-path-with-edge-reversals](https://github.com/smit-1z/DSA/tree/master/3650-minimum-cost-path-with-edge-reversals) |
@@ -417,6 +420,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0380-insert-delete-getrandom-o1](https://github.com/smit-1z/DSA/tree/master/0380-insert-delete-getrandom-o1) |
 | [0441-arranging-coins](https://github.com/smit-1z/DSA/tree/master/0441-arranging-coins) |
 | [0445-add-two-numbers-ii](https://github.com/smit-1z/DSA/tree/master/0445-add-two-numbers-ii) |
+| [0973-k-closest-points-to-origin](https://github.com/smit-1z/DSA/tree/master/0973-k-closest-points-to-origin) |
 | [1290-convert-binary-number-in-a-linked-list-to-integer](https://github.com/smit-1z/DSA/tree/master/1290-convert-binary-number-in-a-linked-list-to-integer) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/smit-1z/DSA/tree/master/1951-find-the-winner-of-the-circular-game) |
 ## Recursion
@@ -535,6 +539,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/smit-1z/DSA/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/smit-1z/DSA/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/smit-1z/DSA/tree/master/0347-top-k-frequent-elements) |
+| [0973-k-closest-points-to-origin](https://github.com/smit-1z/DSA/tree/master/0973-k-closest-points-to-origin) |
 ## Bucket Sort
 |  |
 | ------- |
@@ -553,6 +558,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/smit-1z/DSA/tree/master/0215-kth-largest-element-in-an-array) |
 | [0347-top-k-frequent-elements](https://github.com/smit-1z/DSA/tree/master/0347-top-k-frequent-elements) |
+| [0973-k-closest-points-to-origin](https://github.com/smit-1z/DSA/tree/master/0973-k-closest-points-to-origin) |
 ## Enumeration
 |  |
 | ------- |
@@ -677,4 +683,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0380-insert-delete-getrandom-o1](https://github.com/smit-1z/DSA/tree/master/0380-insert-delete-getrandom-o1) |
+## Geometry
+|  |
+| ------- |
+| [0973-k-closest-points-to-origin](https://github.com/smit-1z/DSA/tree/master/0973-k-closest-points-to-origin) |
+## K-D Tree
+|  |
+| ------- |
+| [0973-k-closest-points-to-origin](https://github.com/smit-1z/DSA/tree/master/0973-k-closest-points-to-origin) |
 <!---LeetCode Topics End-->
