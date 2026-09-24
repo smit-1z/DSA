@@ -20,35 +20,32 @@ class Node {
 
 class Solution {
     public Node cloneGraph(Node node) {
-        if(node == null) return node;
+        if (node == null) return null;
+        Map<Node, Node> map = new HashMap<>();
+        Queue<Node> q = new LinkedList<>();
 
-        HashMap<Node,Node> nodeMapping = new HashMap<>();
-        Queue<Node> queue = new LinkedList<>();
+        q.offer(node);
 
-        queue.offer(node);
+        while (!q.isEmpty()) {
+            Node currNode = q.poll();
 
-        while(!queue.isEmpty()){
-            Node cur = queue.remove();
-
-            if(!nodeMapping.containsKey(cur)){
-                Node newNode = new Node(cur.val);
-                nodeMapping.put(cur,newNode);
+            if (!map.containsKey(currNode)) {
+                map.put(currNode, new Node(currNode.val));
             }
 
-            for(Node neighbor : cur.neighbors){
-                if(!nodeMapping.containsKey(neighbor)){
-                    queue.add(neighbor);
+            for (Node neighbor : currNode.neighbors) {
+                if (!map.containsKey(neighbor)) {
+                    q.offer(neighbor);
                 }
             }
         }
 
-        for(Node cur: nodeMapping.keySet()){
-            Node newNode = nodeMapping.get(cur);
-            for(Node neighbor : cur.neighbors){
-                newNode.neighbors.add(nodeMapping.get(neighbor));
+        for (Node n : map.keySet()) {
+            Node newNode = map.get(n);
+            for (Node nei : n.neighbors) {
+                newNode.neighbors.add(map.get(nei));
             }
         }
-
-        return nodeMapping.get(node);
+        return map.get(node);
     }
 }
