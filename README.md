@@ -64,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0540-single-element-in-a-sorted-array](https://github.com/smit-1z/DSA/tree/master/0540-single-element-in-a-sorted-array) |
 | [0560-subarray-sum-equals-k](https://github.com/smit-1z/DSA/tree/master/0560-subarray-sum-equals-k) |
 | [0621-task-scheduler](https://github.com/smit-1z/DSA/tree/master/0621-task-scheduler) |
+| [0622-design-circular-queue](https://github.com/smit-1z/DSA/tree/master/0622-design-circular-queue) |
 | [0643-maximum-average-subarray-i](https://github.com/smit-1z/DSA/tree/master/0643-maximum-average-subarray-i) |
 | [0658-find-k-closest-elements](https://github.com/smit-1z/DSA/tree/master/0658-find-k-closest-elements) |
 | [0695-max-area-of-island](https://github.com/smit-1z/DSA/tree/master/0695-max-area-of-island) |
@@ -350,6 +351,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0237-delete-node-in-a-linked-list](https://github.com/smit-1z/DSA/tree/master/0237-delete-node-in-a-linked-list) |
 | [0445-add-two-numbers-ii](https://github.com/smit-1z/DSA/tree/master/0445-add-two-numbers-ii) |
 | [0460-lfu-cache](https://github.com/smit-1z/DSA/tree/master/0460-lfu-cache) |
+| [0622-design-circular-queue](https://github.com/smit-1z/DSA/tree/master/0622-design-circular-queue) |
 | [0706-design-hashmap](https://github.com/smit-1z/DSA/tree/master/0706-design-hashmap) |
 | [0859-design-circular-deque](https://github.com/smit-1z/DSA/tree/master/0859-design-circular-deque) |
 | [1290-convert-binary-number-in-a-linked-list-to-integer](https://github.com/smit-1z/DSA/tree/master/1290-convert-binary-number-in-a-linked-list-to-integer) |
@@ -365,6 +367,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0359-logger-rate-limiter](https://github.com/smit-1z/DSA/tree/master/0359-logger-rate-limiter) |
 | [0380-insert-delete-getrandom-o1](https://github.com/smit-1z/DSA/tree/master/0380-insert-delete-getrandom-o1) |
 | [0460-lfu-cache](https://github.com/smit-1z/DSA/tree/master/0460-lfu-cache) |
+| [0622-design-circular-queue](https://github.com/smit-1z/DSA/tree/master/0622-design-circular-queue) |
 | [0706-design-hashmap](https://github.com/smit-1z/DSA/tree/master/0706-design-hashmap) |
 | [0859-design-circular-deque](https://github.com/smit-1z/DSA/tree/master/0859-design-circular-deque) |
 | [0981-time-based-key-value-store](https://github.com/smit-1z/DSA/tree/master/0981-time-based-key-value-store) |
@@ -447,6 +450,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/smit-1z/DSA/tree/master/0239-sliding-window-maximum) |
+| [0622-design-circular-queue](https://github.com/smit-1z/DSA/tree/master/0622-design-circular-queue) |
 | [0859-design-circular-deque](https://github.com/smit-1z/DSA/tree/master/0859-design-circular-deque) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/smit-1z/DSA/tree/master/1951-find-the-winner-of-the-circular-game) |
 ## Simulation
