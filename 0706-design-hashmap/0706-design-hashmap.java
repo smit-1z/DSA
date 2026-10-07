@@ -48,21 +48,26 @@ class Bucket {
 }
 
 class MyHashMap {
-    Bucket map;
+
+    private static final int CAPACITY = 1013;
+    private final Bucket[] buckets;
 
     public MyHashMap() {
-        this.map = new Bucket();
+        this.buckets = new Bucket[CAPACITY];
+          for (int i = 0; i < CAPACITY; i++) {
+            buckets[i] = new Bucket();
+        }
     }
 
     public void put(int key, int value) {
-        map.update(key, value);
+        buckets[key%CAPACITY].update(key,value);
     }
 
     public int get(int key) {
-        return map.get(key);
+        return buckets[key%CAPACITY].get(key);
     }
 
     public void remove(int key) {
-        map.remove(key);
+        buckets[key%CAPACITY].remove(key);
     }
 }
