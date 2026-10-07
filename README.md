@@ -67,6 +67,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0643-maximum-average-subarray-i](https://github.com/smit-1z/DSA/tree/master/0643-maximum-average-subarray-i) |
 | [0658-find-k-closest-elements](https://github.com/smit-1z/DSA/tree/master/0658-find-k-closest-elements) |
 | [0695-max-area-of-island](https://github.com/smit-1z/DSA/tree/master/0695-max-area-of-island) |
+| [0706-design-hashmap](https://github.com/smit-1z/DSA/tree/master/0706-design-hashmap) |
 | [0735-asteroid-collision](https://github.com/smit-1z/DSA/tree/master/0735-asteroid-collision) |
 | [0739-daily-temperatures](https://github.com/smit-1z/DSA/tree/master/0739-daily-temperatures) |
 | [0752-open-the-lock](https://github.com/smit-1z/DSA/tree/master/0752-open-the-lock) |
@@ -244,6 +245,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/smit-1z/DSA/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/smit-1z/DSA/tree/master/0567-permutation-in-string) |
 | [0621-task-scheduler](https://github.com/smit-1z/DSA/tree/master/0621-task-scheduler) |
+| [0706-design-hashmap](https://github.com/smit-1z/DSA/tree/master/0706-design-hashmap) |
 | [0752-open-the-lock](https://github.com/smit-1z/DSA/tree/master/0752-open-the-lock) |
 | [0767-reorganize-string](https://github.com/smit-1z/DSA/tree/master/0767-reorganize-string) |
 | [0981-time-based-key-value-store](https://github.com/smit-1z/DSA/tree/master/0981-time-based-key-value-store) |
@@ -348,6 +350,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0237-delete-node-in-a-linked-list](https://github.com/smit-1z/DSA/tree/master/0237-delete-node-in-a-linked-list) |
 | [0445-add-two-numbers-ii](https://github.com/smit-1z/DSA/tree/master/0445-add-two-numbers-ii) |
 | [0460-lfu-cache](https://github.com/smit-1z/DSA/tree/master/0460-lfu-cache) |
+| [0706-design-hashmap](https://github.com/smit-1z/DSA/tree/master/0706-design-hashmap) |
 | [0859-design-circular-deque](https://github.com/smit-1z/DSA/tree/master/0859-design-circular-deque) |
 | [1290-convert-binary-number-in-a-linked-list-to-integer](https://github.com/smit-1z/DSA/tree/master/1290-convert-binary-number-in-a-linked-list-to-integer) |
 | [1669-merge-in-between-linked-lists](https://github.com/smit-1z/DSA/tree/master/1669-merge-in-between-linked-lists) |
@@ -362,6 +365,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0359-logger-rate-limiter](https://github.com/smit-1z/DSA/tree/master/0359-logger-rate-limiter) |
 | [0380-insert-delete-getrandom-o1](https://github.com/smit-1z/DSA/tree/master/0380-insert-delete-getrandom-o1) |
 | [0460-lfu-cache](https://github.com/smit-1z/DSA/tree/master/0460-lfu-cache) |
+| [0706-design-hashmap](https://github.com/smit-1z/DSA/tree/master/0706-design-hashmap) |
 | [0859-design-circular-deque](https://github.com/smit-1z/DSA/tree/master/0859-design-circular-deque) |
 | [0981-time-based-key-value-store](https://github.com/smit-1z/DSA/tree/master/0981-time-based-key-value-store) |
 ## Doubly-Linked List
@@ -665,6 +669,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0572-subtree-of-another-tree](https://github.com/smit-1z/DSA/tree/master/0572-subtree-of-another-tree) |
+| [0706-design-hashmap](https://github.com/smit-1z/DSA/tree/master/0706-design-hashmap) |
 ## Quicksort
 |  |
 | ------- |
