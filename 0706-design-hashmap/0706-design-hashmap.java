@@ -12,7 +12,7 @@ class Bucket {
     private List<Pair<Integer, Integer>> bucket;
 
     public Bucket() {
-        this.bucket = new LinkedList<Pair<Integer,Integer>>();
+        this.bucket = new LinkedList<Pair<Integer, Integer>>();
     }
 
     public Integer get(Integer key) {
@@ -25,17 +25,14 @@ class Bucket {
     }
 
     public void update(Integer key, Integer value) {
-        boolean found = false;
         for (Pair<Integer, Integer> pair : this.bucket) {
             if (pair.first.equals(key)) {
                 pair.second = value;
-                found = true;
+                return;
             }
         }
 
-        if (!found) {
-            this.bucket.add(new Pair(key, value));
-        }
+        this.bucket.add(new Pair(key, value));
 
     }
 
