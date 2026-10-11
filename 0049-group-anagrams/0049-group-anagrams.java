@@ -3,8 +3,7 @@ class Solution {
         Map<String,List<String>> map = new HashMap<>();
 
         for(String str : strs){
-            String key = getKey(str);
-            map.computeIfAbsent(key, k-> new ArrayList<>()).add(str);
+            map.computeIfAbsent(getKey(str), k-> new ArrayList<>()).add(str);
         }
 
         return new ArrayList<>( map.values());
