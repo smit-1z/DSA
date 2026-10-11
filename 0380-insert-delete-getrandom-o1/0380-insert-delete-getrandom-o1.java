@@ -12,7 +12,6 @@ class RandomizedSet {
             list.add(val);
             map.put(val,list.size() -1);
             return true;
-
         }
 
         return false;
@@ -37,11 +36,3 @@ class RandomizedSet {
         return list.get((int)random);
     }
 }
-
-/**
- * Your RandomizedSet object will be instantiated and called as such:
- * RandomizedSet obj = new RandomizedSet();
- * boolean param_1 = obj.insert(val);
- * boolean param_2 = obj.remove(val);
- * int param_3 = obj.getRandom();
- */
