@@ -1,9 +1,10 @@
 class Solution {
+    Map<Integer, List<Integer>> map;
     List<Integer> res = new ArrayList<>();
-    Map<Integer, List<Integer>> map = new HashMap<>();
     Map<Integer, Boolean> visiting = new HashMap<>();
 
     public int[] findOrder(int numCourses, int[][] prerequisites) {
+        this.map = new HashMap<>();
 
         for (int i = 0; i < numCourses; i++) {
             map.put(i, new ArrayList<>());
@@ -14,7 +15,7 @@ class Solution {
         }
 
         for (int i = 0; i < numCourses; i++) {
-            if (findCycle(i)) {
+            if (cycleFound(i)) {
                 return new int[] {};
             }
         }
@@ -28,16 +29,15 @@ class Solution {
         return resArray;
     }
 
-    public boolean findCycle(int courseId) {
+    public boolean cycleFound(int courseId) {
         if (visiting.containsKey(courseId)) {
             return visiting.get(courseId);
         }
-        visiting.put(courseId, true);
 
+        visiting.put(courseId,true);
         for (int pre : map.get(courseId)) {
-            if (findCycle(pre)) {
-                return true;
-            }
+            if (cycleFound(pre))
+            return true;
         }
 
         visiting.put(courseId, false);
