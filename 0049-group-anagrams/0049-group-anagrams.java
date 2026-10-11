@@ -4,8 +4,7 @@ class Solution {
 
         for(String str : strs){
             String key = getKey(str);
-            map.computeIfAbsent(key, k-> new ArrayList<>());
-            map.get(key).add(str);
+            map.computeIfAbsent(key, k-> new ArrayList<>()).add(str);
         }
 
         return new ArrayList<>( map.values());
