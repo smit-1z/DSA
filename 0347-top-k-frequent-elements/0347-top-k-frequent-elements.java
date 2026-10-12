@@ -22,7 +22,7 @@ class Solution {
  
         for(int i = max ; i>=0 && k>0;i--){
             for(int num:bucket[i]){
-                res[resIdx++] =num;
+                res[resIdx++] = num;
                 k--;
             }
         }
