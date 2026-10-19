@@ -85,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1039-find-the-town-judge](https://github.com/smit-1z/DSA/tree/master/1039-find-the-town-judge) |
 | [1046-max-consecutive-ones-iii](https://github.com/smit-1z/DSA/tree/master/1046-max-consecutive-ones-iii) |
 | [1074-high-five](https://github.com/smit-1z/DSA/tree/master/1074-high-five) |
+| [1094-car-pooling](https://github.com/smit-1z/DSA/tree/master/1094-car-pooling) |
 | [1169-invalid-transactions](https://github.com/smit-1z/DSA/tree/master/1169-invalid-transactions) |
 | [1184-distance-between-bus-stops](https://github.com/smit-1z/DSA/tree/master/1184-distance-between-bus-stops) |
 | [1200-minimum-absolute-difference](https://github.com/smit-1z/DSA/tree/master/1200-minimum-absolute-difference) |
@@ -149,6 +150,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/smit-1z/DSA/tree/master/0560-subarray-sum-equals-k) |
 | [0713-subarray-product-less-than-k](https://github.com/smit-1z/DSA/tree/master/0713-subarray-product-less-than-k) |
 | [1046-max-consecutive-ones-iii](https://github.com/smit-1z/DSA/tree/master/1046-max-consecutive-ones-iii) |
+| [1094-car-pooling](https://github.com/smit-1z/DSA/tree/master/1094-car-pooling) |
 ## Two Pointers
 |  |
 | ------- |
@@ -202,6 +204,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0973-k-closest-points-to-origin](https://github.com/smit-1z/DSA/tree/master/0973-k-closest-points-to-origin) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/smit-1z/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1074-high-five](https://github.com/smit-1z/DSA/tree/master/1074-high-five) |
+| [1094-car-pooling](https://github.com/smit-1z/DSA/tree/master/1094-car-pooling) |
 | [1169-invalid-transactions](https://github.com/smit-1z/DSA/tree/master/1169-invalid-transactions) |
 | [1200-minimum-absolute-difference](https://github.com/smit-1z/DSA/tree/master/1200-minimum-absolute-difference) |
 | [1306-minimum-absolute-difference](https://github.com/smit-1z/DSA/tree/master/1306-minimum-absolute-difference) |
@@ -222,6 +225,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0767-reorganize-string](https://github.com/smit-1z/DSA/tree/master/0767-reorganize-string) |
 | [0973-k-closest-points-to-origin](https://github.com/smit-1z/DSA/tree/master/0973-k-closest-points-to-origin) |
 | [1074-high-five](https://github.com/smit-1z/DSA/tree/master/1074-high-five) |
+| [1094-car-pooling](https://github.com/smit-1z/DSA/tree/master/1094-car-pooling) |
 | [1488-avoid-flood-in-the-city](https://github.com/smit-1z/DSA/tree/master/1488-avoid-flood-in-the-city) |
 | [3650-minimum-cost-path-with-edge-reversals](https://github.com/smit-1z/DSA/tree/master/3650-minimum-cost-path-with-edge-reversals) |
 ## Hash Table
@@ -469,6 +473,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0054-spiral-matrix](https://github.com/smit-1z/DSA/tree/master/0054-spiral-matrix) |
 | [0735-asteroid-collision](https://github.com/smit-1z/DSA/tree/master/0735-asteroid-collision) |
+| [1094-car-pooling](https://github.com/smit-1z/DSA/tree/master/1094-car-pooling) |
 | [1951-find-the-winner-of-the-circular-game](https://github.com/smit-1z/DSA/tree/master/1951-find-the-winner-of-the-circular-game) |
 | [2058-concatenation-of-array](https://github.com/smit-1z/DSA/tree/master/2058-concatenation-of-array) |
 ## String
