@@ -78,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0859-design-circular-deque](https://github.com/smit-1z/DSA/tree/master/0859-design-circular-deque) |
 | [0875-koko-eating-bananas](https://github.com/smit-1z/DSA/tree/master/0875-koko-eating-bananas) |
 | [0883-car-fleet](https://github.com/smit-1z/DSA/tree/master/0883-car-fleet) |
+| [0905-sort-array-by-parity](https://github.com/smit-1z/DSA/tree/master/0905-sort-array-by-parity) |
 | [0973-k-closest-points-to-origin](https://github.com/smit-1z/DSA/tree/master/0973-k-closest-points-to-origin) |
 | [0994-rotting-oranges](https://github.com/smit-1z/DSA/tree/master/0994-rotting-oranges) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/smit-1z/DSA/tree/master/1011-capacity-to-ship-packages-within-d-days) |
@@ -175,6 +176,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0658-find-k-closest-elements](https://github.com/smit-1z/DSA/tree/master/0658-find-k-closest-elements) |
 | [0696-count-binary-substrings](https://github.com/smit-1z/DSA/tree/master/0696-count-binary-substrings) |
 | [0845-longest-mountain-in-array](https://github.com/smit-1z/DSA/tree/master/0845-longest-mountain-in-array) |
+| [0905-sort-array-by-parity](https://github.com/smit-1z/DSA/tree/master/0905-sort-array-by-parity) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/smit-1z/DSA/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 ## Sorting
 |  |
@@ -196,6 +198,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0658-find-k-closest-elements](https://github.com/smit-1z/DSA/tree/master/0658-find-k-closest-elements) |
 | [0767-reorganize-string](https://github.com/smit-1z/DSA/tree/master/0767-reorganize-string) |
 | [0883-car-fleet](https://github.com/smit-1z/DSA/tree/master/0883-car-fleet) |
+| [0905-sort-array-by-parity](https://github.com/smit-1z/DSA/tree/master/0905-sort-array-by-parity) |
 | [0973-k-closest-points-to-origin](https://github.com/smit-1z/DSA/tree/master/0973-k-closest-points-to-origin) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/smit-1z/DSA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1074-high-five](https://github.com/smit-1z/DSA/tree/master/1074-high-five) |
